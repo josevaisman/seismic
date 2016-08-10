@@ -34,7 +34,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
 import java.text.SimpleDateFormat;
-import java.text.DecimalFormat;
 
 import com.mustafaali.sensorssandbox.R;
 import com.mustafaali.sensorssandbox.adapter.SpinnerAdapter;
@@ -93,14 +92,14 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private Long fin = System.currentTimeMillis();
 	private float velocidad = 0;
 	private int numero_inicio = 0;
-	private Double valor_sensor = 0.0;
+	private Double valor_sensor = 9.7;
 	private Double valor = 0.0;
 	private Double valor_media = null;
 	private Double valor_media_inf = null;
 	private Double valor_media_sup = null;
 	private Double valor_limit_inf = null;
 	private Double valor_limit_sup = null;
-	private Double delta_limite = 1.7;
+	private Double delta_limite = 0.0;
 	private Double factor_banda = 1.6;
 	private Double factor_banda_media = 2.0;
 	private Double spread_banda_media = 0.0;
@@ -116,7 +115,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private Boolean quieto_anterior = false;
 	private Boolean estable_sup = false;
 	private Boolean estable_inf = false;
-    private static final int HISTORY_SIZE = 500;            // number of points to plot in history
+    private static final int HISTORY_SIZE = 500;          
 	
 	private NotificationCompat.Builder notificacion;
 	
@@ -132,8 +131,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private SimpleXYSeries media_limit_sup_HistorySeries = null;
 	
 	final String LOGGLY_TOKEN = "4950f5f9-2340-4aa8-81c0-1d29ec7e42e3";
-	DecimalFormat df2 = new DecimalFormat("####0.00");
-	DecimalFormat df4 = new DecimalFormat("####0.0000");
 	
 	Handler handler = new Handler(Looper.getMainLooper());
 	final Runnable r = new Runnable(){
@@ -246,6 +243,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		}
 		
 		Timber.plant(new LogglyTree(LOGGLY_TOKEN));
+		
     }
 	
 	private OnClickListener clickgrafico = new OnClickListener(){
@@ -502,13 +500,12 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			
             for (int i = 0; i < event.values.length; i++) {
                 f = event.values[i];
-				//s = f.toString();
-				s = df2.format(f);
+				s = f.toString();
 				sb.append("values[" + i + "] : " + s + "\n");
 				sr.append(";" + s.replace(".",","));
             }
-			sr.append(";" + df4.format(latitud));
-			sr.append(";" + df4.format(longitud));
+			sr.append(";" + latitud);
+			sr.append(";" + longitud);
 			
 			numero++;
 			registrosTextView.setText(numero.toString());
@@ -551,9 +548,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			}
 			
             dataTextView.setText(sb);
-			
-			Timber.tag("record");
-			Timber.i(sb.toString());
 			
 			// add the latest history sample:
 			valor_sensor = Math.sqrt(event.values[0]*event.values[0]+event.values[1]*event.values[1]+event.values[2]*event.values[2]);
@@ -607,8 +601,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 				aprHistoryPlot.removeSeries(sensorHistorySeries);
 				aprHistoryPlot.addSeries(sensorHistorySeries, new LineAndPointFormatter(Color.rgb(100, 100, 200), null, null, null));
 				
-				Timber.tag("android");
-				Timber.i("hello world");
 			}
 			
 			if (!quieto && quieto_anterior){
@@ -630,6 +622,8 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 				cotaHistorySeries.removeFirst();
 			}
 
+			LogData(valor_sensor);
+			
 			if(showgraph){
 				// redraw the Plots:
 				aprHistoryPlot.redraw();
@@ -640,7 +634,12 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         public void onAccuracyChanged(Sensor sensor, int accuracy) {
         }
     };
-
+	
+	private void LogData(Double val){
+		Timber.tag("Rec01");
+		Timber.i("s: "+ val);
+	}
+	
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
