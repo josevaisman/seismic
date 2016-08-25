@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.os.Handler;
 import android.os.Looper;
 import android.view.WindowManager;
+import android.os.AsyncTask;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -55,6 +56,7 @@ import android.view.View.*;
 
 import timber.log.Timber;
 import com.github.tony19.timber.loggly.LogglyTree;
+import com.github.reweber.androidasyncsocketexamples.udp.Client;
 
 public class MainActivity extends ActionBarActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
 
@@ -111,6 +113,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private Double dec_env1 = 0.95;
 	private Double delta_minimo = 1.0;
 	private Boolean showgraph = false;
+	private Boolean updateGraph = false;
 	private Boolean quieto = false;
 	private Boolean quieto_anterior = false;
 	private Boolean estable_sup = false;
@@ -132,6 +135,9 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	
 	final String LOGGLY_TOKEN = "4950f5f9-2340-4aa8-81c0-1d29ec7e42e3";
 	
+	private Client senderLogsene = null;
+	private Client senderLoggly = null;
+	
 	Handler handler = new Handler(Looper.getMainLooper());
 	final Runnable r = new Runnable(){
 		public void run(){
@@ -142,7 +148,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-		Toast.makeText(getApplicationContext(), "onCreate: root = " + isTaskRoot(), Toast.LENGTH_SHORT).show();
 		
 		if (!isTaskRoot()) {
 			final Intent intent = getIntent();
@@ -243,7 +248,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		}
 		
 		Timber.plant(new LogglyTree(LOGGLY_TOKEN));
-		
+		IniciarConeccion();
     }
 	
 	private OnClickListener clickgrafico = new OnClickListener(){
@@ -269,14 +274,14 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			LocationServices.FusedLocationApi.removeLocationUpdates(
 				mGoogleApiClient, this);
 		}
-		Toast.makeText(this, "stopLocationUpdates",Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "stopLocationUpdates",Toast.LENGTH_SHORT).show();
 		
 	}
 	
 	protected void startLocationUpdates() {
 		LocationServices.FusedLocationApi.requestLocationUpdates(
 			mGoogleApiClient, mLocationRequest, this);
-		Toast.makeText(this, "startLocationUpdates",Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "startLocationUpdates",Toast.LENGTH_SHORT).show();
 		
 	}
 
@@ -286,7 +291,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		locationupdate = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new Date());
 		latitud = mLastLocation.getLatitude();
 		longitud = mLastLocation.getLongitude();
-		Toast.makeText(this, "Update -> Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
 
 	}
 	
@@ -349,7 +354,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			locationupdate = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new Date());
 			latitud = mLastLocation.getLatitude();
 			longitud = mLastLocation.getLongitude();
-			Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
 			
 		}
 		startLocationUpdates();
@@ -359,7 +364,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	public void onConnectionSuspended(int i) {
 		latitud = null;
 		longitud = null;
-		Toast.makeText(this, "onConnectionSuspended",Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "onConnectionSuspended",Toast.LENGTH_SHORT).show();
 		
 	}
 	
@@ -367,7 +372,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	public void onConnectionFailed(ConnectionResult connectionResult) {
 		latitud = null;
 		longitud = null;
-		Toast.makeText(this, "onConnectionFailed",Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "onConnectionFailed",Toast.LENGTH_SHORT).show();
 		
 	}
 	
@@ -412,20 +417,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         super.onPause();
 		showgraph = false;
     }
-
-	@Override
-	public void onBackPressed()
-	{
-		Toast.makeText(getApplicationContext(), "onBackPressed", Toast.LENGTH_SHORT).show();
-		super.onBackPressed();
-	}
-
-	@Override
-	protected void onStop()
-	{
-		Toast.makeText(getApplicationContext(), "onStop", Toast.LENGTH_SHORT).show();
-		super.onStop();
-	}
 
 	@Override
 	protected void onDestroy()
@@ -532,8 +523,12 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 				NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
 				notificationManager.notify(0, notificacion.build());
+				updateGraph = true;
 			}
-			
+			else
+			{
+				updateGraph = false;
+			}
 			
 			if(numero % 60000 == 0){
 				timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new Date());
@@ -624,7 +619,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 
 			LogData(valor_sensor);
 			
-			if(showgraph){
+			if(showgraph && updateGraph){
 				// redraw the Plots:
 				aprHistoryPlot.redraw();
 			}
@@ -636,8 +631,41 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     };
 	
 	private void LogData(Double val){
-		Timber.tag("Rec01");
-		Timber.i("s: "+ val);
+		//Timber.tag("Rec01");
+		//Timber.i("s: "+ val);
+		if(senderLogsene!=null){
+			final Double dval = val;
+			new AsyncTask<Void, Void, Void>() {
+            	@Override
+            	protected Void doInBackground(Void... params) {
+                	//TCP client and server (Client will automatically send welcome message after setup and server will respond)
+                	//new com.github.reweber.androidasyncsocketexamples.tcp.Server("localhost", 7000);
+                	//new com.github.reweber.androidasyncsocketexamples.tcp.Client("localhost", 7000);
+                	//UDP client and server (Here the client explicitly sends a message)
+                	//new com.github.reweber.androidasyncsocketexamples.udp.Server("localhost", 7001);
+                	//new com.github.reweber.androidasyncsocketexamples.udp.Client("localhost", 7001).send("Hello World");
+                	senderLogsene.send("{\"logsene-app-token\":\"1dafc277-702d-47c2-8818-99232506df7a\", \"message\":"+dval+"}");
+					//if(senderLoggly!=null){
+					//	senderLoggly.send("{\"message\":"+dval+"}");
+					//}
+                	return null;
+            	}
+        	}.execute();
+		}
+		//Log.i("Logger", "s; " +val);
+	}
+
+
+	private void IniciarConeccion(){
+		new AsyncTask<Void, Void, Void>() {
+            @Override
+            protected Void doInBackground(Void... params) {
+                senderLogsene = new Client("logsene-receiver-syslog.sematext.com", 12201);
+				//senderLoggly = new Client("log-01.loggly.com/input/"+LOGGLY_TOKEN, 514);
+				return null;
+            }
+        }.execute();
+
 	}
 	
     @Override
@@ -650,14 +678,12 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	protected void onNewIntent(Intent intent)
 	{
 		Toast.makeText(getApplicationContext(), "onNewIntent", Toast.LENGTH_SHORT).show();
-		
 		super.onNewIntent(intent);
 	}
 	
 	
 	public NotificationCompat.Builder recordingNotification(){
 		{
-			
 			Intent intent = new Intent(this, MainActivity.class);
 			intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
 			PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
