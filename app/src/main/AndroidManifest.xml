@@ -52,9 +52,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-		<service 
-			android:name=".ExampleService" 
-			android:exported="false"/>
+		<service
+			android:name="com.sematext.android.LogseneService"
+			android:exported="false"
+			android:process=":androidService">
+
+			<meta-data android:name="appToken" android:value="yourtoken" />
+			<meta-data android:name="type" android:value="example" />
+			<!-- optional fields below -->
+			<meta-data android:name="maxOfflineMessages" android:value="5000" />
+			<meta-data android:name="receiverUrl" android:value="https://logsene-receiver.sematext.com" />
+		</service>
     </application>
 
 </manifest>

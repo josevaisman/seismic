@@ -59,8 +59,27 @@
 		</activity>
 
 		<service
-			android:name=".ExampleService"
-			android:exported="false"/>
+			android:name="com.sematext.android.LogseneService"
+			android:exported="false"
+			android:process=":androidService">
+
+			<meta-data
+				android:name="appToken"
+				android:value="yourtoken"/>
+
+			<meta-data
+				android:name="type"
+				android:value="example"/>
+
+			<meta-data
+				android:name="maxOfflineMessages"
+				android:value="5000"/>
+
+			<meta-data
+				android:name="receiverUrl"
+				android:value="https://logsene-receiver.sematext.com"/>
+
+		</service>
 
 	</application>
 
