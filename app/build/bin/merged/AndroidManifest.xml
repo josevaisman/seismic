@@ -44,8 +44,22 @@
         </activity>
 
         <service
-            android:name="com.mustafaali.sensorssandbox.ExampleService"
-            android:exported="false" />
+            android:name="com.sematext.android.LogseneService"
+            android:exported="false"
+            android:process=":androidService" >
+            <meta-data
+                android:name="appToken"
+                android:value="1dafc277-702d-47c2-8818-99232506df7a" />
+            <meta-data
+                android:name="type"
+                android:value="s" />
+            <meta-data
+                android:name="maxOfflineMessages"
+                android:value="5000" />
+            <meta-data
+                android:name="receiverUrl"
+                android:value="https://logsene-receiver.sematext.com" />
+        </service>
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

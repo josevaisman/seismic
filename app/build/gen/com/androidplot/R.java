@@ -3356,6 +3356,9 @@ containing a value of this type.
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
     }
+    public static final class raw {
+        public static final int log4j2=0x7f060000;
+    }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0d0000;
         public static final int abc_action_bar_home_description_format=0x7f0d0001;
@@ -3701,9 +3704,6 @@ containing a value of this type.
          */
         public static final int spinnerStyle=0x7f0800f9;
         public static final int wrap=0x7f0800f4;
-    }
-    public static final class xml {
-        public static final int log4j2=0x7f060000;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

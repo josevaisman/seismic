@@ -36,6 +36,10 @@ import java.io.IOException;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
+import org.json.JSONObject;
+import org.json.JSONException;
+import com.sematext.android.Logsene;
+
 import com.mustafaali.sensorssandbox.R;
 import com.mustafaali.sensorssandbox.adapter.SpinnerAdapter;
 
@@ -53,10 +57,8 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import android.location.Location;
 import android.view.View.*;
+import java.security.*;
 
-import timber.log.Timber;
-import com.github.tony19.timber.loggly.LogglyTree;
-import com.github.reweber.androidasyncsocketexamples.udp.Client;
 
 public class MainActivity extends ActionBarActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
 
@@ -87,7 +89,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private TextView lupdateTextView;
 	private TextView bandamediaTextView;
 	private FileWriter fw;
-	private String timeStamp;
 	private String locationupdate;
 	private Integer numero = 0;
 	private Long inicio = System.currentTimeMillis();
@@ -133,18 +134,8 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private SimpleXYSeries media_limit_inf_HistorySeries = null;
 	private SimpleXYSeries media_limit_sup_HistorySeries = null;
 	
-	final String LOGGLY_TOKEN = "4950f5f9-2340-4aa8-81c0-1d29ec7e42e3";
-	
-	private Client senderLogsene = null;
-	private Client senderLoggly = null;
-	
-	Handler handler = new Handler(Looper.getMainLooper());
-	final Runnable r = new Runnable(){
-		public void run(){
-			moveTaskToBack(true);
-		}
-	};
-	
+	private JSONObject event = new JSONObject();
+	private Boolean logPosition = false;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -168,14 +159,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 
         displaySensorsList();
-		
-		timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new Date());
-		
-        try {
-            fw = new FileWriter(new File("/sdcard/Documents/Registros"+timeStamp+".txt"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 		
 		//handler.postDelayed(r, 100);
 		notificacion = recordingNotification();
@@ -247,8 +230,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
             createLocationRequest();
 		}
 		
-		Timber.plant(new LogglyTree(LOGGLY_TOKEN));
-		IniciarConeccion();
     }
 	
 	private OnClickListener clickgrafico = new OnClickListener(){
@@ -292,6 +273,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		latitud = mLastLocation.getLatitude();
 		longitud = mLastLocation.getLongitude();
 		Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
+		logPosition = true;
 
 	}
 	
@@ -355,7 +337,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			latitud = mLastLocation.getLatitude();
 			longitud = mLastLocation.getLongitude();
 			Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
-			
+			logPosition = true;
 		}
 		startLocationUpdates();
 	}
@@ -364,6 +346,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	public void onConnectionSuspended(int i) {
 		latitud = null;
 		longitud = null;
+		logPosition = false;
 		Toast.makeText(this, "onConnectionSuspended",Toast.LENGTH_SHORT).show();
 		
 	}
@@ -372,6 +355,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	public void onConnectionFailed(ConnectionResult connectionResult) {
 		latitud = null;
 		longitud = null;
+		logPosition = false;
 		Toast.makeText(this, "onConnectionFailed",Toast.LENGTH_SHORT).show();
 		
 	}
@@ -427,17 +411,14 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         }
 		
 		Toast.makeText(getApplicationContext(), "onDestroy", Toast.LENGTH_SHORT).show();
-		try {
-			fw.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		
 		mSensorManager.unregisterListener(mSensorEventListener);
 		NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 		notificationManager.cancel(0);
 		
 		latitud = null;
 		longitud = null;
+		logPosition = false;
 		
 		super.onDestroy();
 	}
@@ -482,35 +463,21 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         @Override
         public void onSensorChanged(SensorEvent event) {
             StringBuilder sb = new StringBuilder();
-			StringBuilder sr = new StringBuilder();
+		
 			String s;
 			Float f;
-			timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new Date());
-			
-			sr.append(timeStamp);
 			
             for (int i = 0; i < event.values.length; i++) {
                 f = event.values[i];
 				s = f.toString();
 				sb.append("values[" + i + "] : " + s + "\n");
-				sr.append(";" + s.replace(".",","));
             }
-			sr.append(";" + latitud);
-			sr.append(";" + longitud);
 			
 			numero++;
 			registrosTextView.setText(numero.toString());
 			velocidadTextView.setText(String.valueOf((int) Math.round(velocidad)).concat(" registros/segundo"));
 			ubicacionTextView.setText(latitud+", "+longitud);
 			lupdateTextView.setText(locationupdate);
-			
-			try {
-				fw.write(sr.toString());
-				fw.write(System.lineSeparator());
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-			
 			
 			if(numero % 50 == 0 || numero < 200){
 				fin = System.currentTimeMillis();
@@ -530,17 +497,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 				updateGraph = false;
 			}
 			
-			if(numero % 60000 == 0){
-				timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new Date());
-				
-				try {
-					fw.close();
-					fw = new FileWriter(new File("/sdcard/Documents/Registros"+timeStamp+".txt"));
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-				
-			}
 			
             dataTextView.setText(sb);
 			
@@ -631,41 +587,20 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     };
 	
 	private void LogData(Double val){
-		//Timber.tag("Rec01");
-		//Timber.i("s: "+ val);
-		if(senderLogsene!=null){
-			final Double dval = val;
-			new AsyncTask<Void, Void, Void>() {
-            	@Override
-            	protected Void doInBackground(Void... params) {
-                	//TCP client and server (Client will automatically send welcome message after setup and server will respond)
-                	//new com.github.reweber.androidasyncsocketexamples.tcp.Server("localhost", 7000);
-                	//new com.github.reweber.androidasyncsocketexamples.tcp.Client("localhost", 7000);
-                	//UDP client and server (Here the client explicitly sends a message)
-                	//new com.github.reweber.androidasyncsocketexamples.udp.Server("localhost", 7001);
-                	//new com.github.reweber.androidasyncsocketexamples.udp.Client("localhost", 7001).send("Hello World");
-                	senderLogsene.send("{\"logsene-app-token\":\"1dafc277-702d-47c2-8818-99232506df7a\", \"message\":"+dval+"}");
-					//if(senderLoggly!=null){
-					//	senderLoggly.send("{\"message\":"+dval+"}");
-					//}
-                	return null;
-            	}
-        	}.execute();
+		try {
+			event = new JSONObject();
+			event.put("s", (double) Math.round(val * 1000) / 1000);
+			event.put("t", System.currentTimeMillis());
+			if (logPosition){
+				event.put("lat", latitud);
+				event.put("log", longitud);
+				logPosition = false;
+			}
+			Logsene logsene = new Logsene(getApplication());
+			logsene.event(event);
+		} catch (JSONException e) {
+			Log.e("myapp", "Unable to construct json", e);
 		}
-		//Log.i("Logger", "s; " +val);
-	}
-
-
-	private void IniciarConeccion(){
-		new AsyncTask<Void, Void, Void>() {
-            @Override
-            protected Void doInBackground(Void... params) {
-                senderLogsene = new Client("logsene-receiver-syslog.sematext.com", 12201);
-				//senderLoggly = new Client("log-01.loggly.com/input/"+LOGGLY_TOKEN, 514);
-				return null;
-            }
-        }.execute();
-
 	}
 	
     @Override
