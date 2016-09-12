@@ -231,6 +231,15 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		}
 		
     }
+
+	@Override
+	public void onBackPressed()
+	{
+		Intent intent = new Intent();
+		intent.setAction(Intent.ACTION_MAIN);
+		intent.addCategory(Intent.CATEGORY_HOME);
+		startActivity(intent);
+	}
 	
 	private OnClickListener clickgrafico = new OnClickListener(){
 
@@ -655,8 +664,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
             showShareDialog();
             return true;
         } else if (item.getItemId() == R.id.action_close) {
-			NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-			notificationManager.cancel(0);
+			finish();
             return true;
         } else {
             return super.onOptionsItemSelected(item);
