@@ -36,6 +36,10 @@ import java.io.IOException;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
+import org.json.JSONObject;
+import org.json.JSONException;
+import com.sematext.android.Logsene;
+
 import com.mustafaali.sensorssandbox.R;
 import com.mustafaali.sensorssandbox.adapter.SpinnerAdapter;
 
@@ -53,6 +57,7 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import android.location.Location;
 import android.view.View.*;
+import java.security.*;
 
 
 public class MainActivity extends ActionBarActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
@@ -129,7 +134,8 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private SimpleXYSeries media_limit_inf_HistorySeries = null;
 	private SimpleXYSeries media_limit_sup_HistorySeries = null;
 	
-	private int senderLogsene = 0;
+	private JSONObject event = new JSONObject();
+	private Boolean logPosition = false;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -224,7 +230,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
             createLocationRequest();
 		}
 		
-		IniciarConeccion();
     }
 	
 	private OnClickListener clickgrafico = new OnClickListener(){
@@ -268,6 +273,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		latitud = mLastLocation.getLatitude();
 		longitud = mLastLocation.getLongitude();
 		Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
+		logPosition = true;
 
 	}
 	
@@ -331,7 +337,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			latitud = mLastLocation.getLatitude();
 			longitud = mLastLocation.getLongitude();
 			Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
-			
+			logPosition = true;
 		}
 		startLocationUpdates();
 	}
@@ -340,6 +346,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	public void onConnectionSuspended(int i) {
 		latitud = null;
 		longitud = null;
+		logPosition = false;
 		Toast.makeText(this, "onConnectionSuspended",Toast.LENGTH_SHORT).show();
 		
 	}
@@ -348,6 +355,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	public void onConnectionFailed(ConnectionResult connectionResult) {
 		latitud = null;
 		longitud = null;
+		logPosition = false;
 		Toast.makeText(this, "onConnectionFailed",Toast.LENGTH_SHORT).show();
 		
 	}
@@ -403,17 +411,14 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         }
 		
 		Toast.makeText(getApplicationContext(), "onDestroy", Toast.LENGTH_SHORT).show();
-		try {
-			fw.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		
 		mSensorManager.unregisterListener(mSensorEventListener);
 		NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 		notificationManager.cancel(0);
 		
 		latitud = null;
 		longitud = null;
+		logPosition = false;
 		
 		super.onDestroy();
 	}
@@ -582,30 +587,20 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     };
 	
 	private void LogData(Double val){
-		
-		if(senderLogsene!=0){
-			final Double dval = val;
-			new AsyncTask<Void, Void, Void>() {
-            	@Override
-            	protected Void doInBackground(Void... params) {
-                	//save dval
-                	return null;
-            	}
-        	}.execute();
+		try {
+			event = new JSONObject();
+			event.put("s", (double) Math.round(val * 1000) / 1000);
+			event.put("t", System.currentTimeMillis());
+			if (logPosition){
+				event.put("lat", latitud);
+				event.put("log", longitud);
+				logPosition = false;
+			}
+			Logsene logsene = new Logsene(getApplication());
+			logsene.event(event);
+		} catch (JSONException e) {
+			Log.e("myapp", "Unable to construct json", e);
 		}
-		//Log.i("Logger", "s; " +val);
-	}
-
-
-	private void IniciarConeccion(){
-		new AsyncTask<Void, Void, Void>() {
-            @Override
-            protected Void doInBackground(Void... params) {
-				
-				return null;
-            }
-        }.execute();
-
 	}
 	
     @Override
