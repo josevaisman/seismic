@@ -65,11 +65,11 @@
 
 			<meta-data
 				android:name="appToken"
-				android:value="yourtoken"/>
+				android:value="1dafc277-702d-47c2-8818-99232506df7a"/>
 
 			<meta-data
 				android:name="type"
-				android:value="example"/>
+				android:value="s"/>
 
 			<meta-data
 				android:name="maxOfflineMessages"

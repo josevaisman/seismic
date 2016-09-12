@@ -57,8 +57,8 @@
 			android:exported="false"
 			android:process=":androidService">
 
-			<meta-data android:name="appToken" android:value="yourtoken" />
-			<meta-data android:name="type" android:value="example" />
+			<meta-data android:name="appToken" android:value="1dafc277-702d-47c2-8818-99232506df7a" />
+			<meta-data android:name="type" android:value="s" />
 			<!-- optional fields below -->
 			<meta-data android:name="maxOfflineMessages" android:value="5000" />
 			<meta-data android:name="receiverUrl" android:value="https://logsene-receiver.sematext.com" />
