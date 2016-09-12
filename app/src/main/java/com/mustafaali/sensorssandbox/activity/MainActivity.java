@@ -598,7 +598,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private void LogData(Double val){
 		try {
 			event = new JSONObject();
-			event.put("s", (double) Math.round(val * 1000) / 1000);
+			event.put("s", (double) Math.round(val * 100000) / 100000);
 			event.put("t", System.currentTimeMillis());
 			if (logPosition){
 				event.put("lat", latitud);
