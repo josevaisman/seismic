@@ -149,7 +149,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			}
 		}
 		
-        Toast.makeText(getApplicationContext(), "onCreate", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(), "onCreate", Toast.LENGTH_SHORT).show();
 		
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -264,7 +264,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			LocationServices.FusedLocationApi.removeLocationUpdates(
 				mGoogleApiClient, this);
 		}
-		Toast.makeText(this, "stopLocationUpdates",Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "stopLocationUpdates",Toast.LENGTH_SHORT).show();
 		
 	}
 	
@@ -281,7 +281,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		locationupdate = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new Date());
 		latitud = mLastLocation.getLatitude();
 		longitud = mLastLocation.getLongitude();
-		Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
 		logPosition = true;
 
 	}
@@ -319,8 +319,8 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 					mGoogleApiClient.connect();
 				}
 			} else if (resultCode == RESULT_CANCELED) {
-				Toast.makeText(this, "Google Play Services must be installed.",
-							   Toast.LENGTH_SHORT).show();
+				//Toast.makeText(this, "Google Play Services must be installed.",
+				//			   Toast.LENGTH_SHORT).show();
 				finish();
 			}
 		}
@@ -345,7 +345,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			locationupdate = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new Date());
 			latitud = mLastLocation.getLatitude();
 			longitud = mLastLocation.getLongitude();
-			Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
+			//Toast.makeText(this, "Latitud:" + latitud+", Longitud:"+longitud,Toast.LENGTH_SHORT).show();
 			logPosition = true;
 		}
 		startLocationUpdates();
@@ -356,7 +356,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		latitud = null;
 		longitud = null;
 		logPosition = false;
-		Toast.makeText(this, "onConnectionSuspended",Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "onConnectionSuspended",Toast.LENGTH_SHORT).show();
 		
 	}
 	
@@ -365,7 +365,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		latitud = null;
 		longitud = null;
 		logPosition = false;
-		Toast.makeText(this, "onConnectionFailed",Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "onConnectionFailed",Toast.LENGTH_SHORT).show();
 		
 	}
 	
@@ -406,7 +406,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 
     @Override
     protected void onPause() {
-		Toast.makeText(getApplicationContext(), "onPause", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getApplicationContext(), "onPause", Toast.LENGTH_SHORT).show();
         super.onPause();
 		showgraph = false;
     }
@@ -419,7 +419,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
             mGoogleApiClient.disconnect();
         }
 		
-		Toast.makeText(getApplicationContext(), "onDestroy", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getApplicationContext(), "onDestroy", Toast.LENGTH_SHORT).show();
 		
 		mSensorManager.unregisterListener(mSensorEventListener);
 		NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
@@ -434,7 +434,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	
     @Override
     protected void onResume() {
-		Toast.makeText(getApplicationContext(), "onResume", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getApplicationContext(), "onResume", Toast.LENGTH_SHORT).show();
 		
         super.onResume();
         if (null != mSensor)
@@ -603,6 +603,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			if (logPosition){
 				event.put("lat", latitud);
 				event.put("log", longitud);
+				event.put("meta", 0);
 				logPosition = false;
 			}
 			Logsene logsene = new Logsene(getApplication());
@@ -621,7 +622,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	@Override
 	protected void onNewIntent(Intent intent)
 	{
-		Toast.makeText(getApplicationContext(), "onNewIntent", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getApplicationContext(), "onNewIntent", Toast.LENGTH_SHORT).show();
 		super.onNewIntent(intent);
 	}
 	
