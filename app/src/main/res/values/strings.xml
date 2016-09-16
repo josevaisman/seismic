@@ -17,7 +17,7 @@
     <string name="app_name">Sismic</string>
     <string name="action_about">About</string>
 	<string name="action_close">Cerrar</string>
-    <string name="action_share">Share</string>
+    <string name="action_share">Compartir</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_about">AboutActivity</string>
     <string name="action_settings">Settings</string>

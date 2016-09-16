@@ -271,7 +271,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	protected void startLocationUpdates() {
 		LocationServices.FusedLocationApi.requestLocationUpdates(
 			mGoogleApiClient, mLocationRequest, this);
-		Toast.makeText(this, "startLocationUpdates",Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "startLocationUpdates",Toast.LENGTH_SHORT).show();
 		
 	}
 
@@ -300,7 +300,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			 */
 			GooglePlayServicesUtil.getErrorDialog(checkGooglePlayServices,
 												  this, REQUEST_CODE_RECOVER_PLAY_SERVICES).show();
-
 			return false;
 		}
 
@@ -381,13 +380,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     private void initUi() {
         spinner = (Spinner) findViewById(R.id.sensors_spinner);
         spinner.setOnItemSelectedListener(onSpinnerItemSelectedListener);
-        vendorTextView = (TextView) findViewById(R.id.vendor_name_tv);
-        versionTextView = (TextView) findViewById(R.id.version_tv);
-        typeTextView = (TextView) findViewById(R.id.type_tv);
-        maxRangeTextView = (TextView) findViewById(R.id.max_range_tv);
-        minDelayTextView = (TextView) findViewById(R.id.min_delay_tv);
-        resolutionTextView = (TextView) findViewById(R.id.resolution_tv);
-        powerTextView = (TextView) findViewById(R.id.power_tv);
 		registrosTextView = (TextView) findViewById(R.id.registros_tv);
         velocidadTextView = (TextView) findViewById(R.id.velocidad_tv);
 		ubicacionTextView = (TextView) findViewById(R.id.ubicacion_tv);
@@ -451,8 +443,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
                                    long id) {
             mSensor = mSensorManager.getDefaultSensor(mSensors.get(pos)
                     .getType());
-
-            displaySensorInfo();
 
             mSensorManager.unregisterListener(mSensorEventListener);
             dataTextView.setText(R.string.msg_waiting_for_data);
@@ -683,17 +673,5 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         startActivity(Intent.createChooser(sendIntent,
                 getResources().getText(R.string.send_to)));
     }
-
-    private void displaySensorInfo() {
-        vendorTextView.setText(mSensor.getVendor());
-        versionTextView.setText(String.valueOf(mSensor.getVersion()));
-        typeTextView.setText(String.valueOf(mSensor.getType()));
-        maxRangeTextView.setText(String.valueOf(mSensor.getMaximumRange()));
-        minDelayTextView.setText(String.valueOf(mSensor.getMinDelay()) + " micro seconds");
-        resolutionTextView.setText(String.valueOf(mSensor.getResolution()));
-        powerTextView.setText(String.valueOf(mSensor.getPower()) + " mA");
-    }
-	
-	
 	
 }
