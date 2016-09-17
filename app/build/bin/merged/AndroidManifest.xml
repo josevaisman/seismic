@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mustafaali.sensorssandbox"
+    package="cl.finhub.sismic"
     android:versionCode="8"
     android:versionName="1.8" >
 
@@ -30,7 +30,7 @@
         android:persistent="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.mustafaali.sensorssandbox.activity.MainActivity"
+            android:name="cl.finhub.sismic.activity.MainActivity"
             android:alwaysRetainTaskState="true"
             android:label="@string/app_name"
             android:launchMode="singleInstance"
@@ -72,7 +72,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.mustafaali.sensorssandbox.firebaseinitprovider"
+            android:authorities="cl.finhub.sismic.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
     </application>

@@ -3701,41 +3701,41 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.mustafaali.sensorssandbox:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.mustafaali.sensorssandbox:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.mustafaali.sensorssandbox:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.mustafaali.sensorssandbox:contentInsetEnd}</code></td><td>
+           <tr><td><code>{@link #ActionBar_background cl.finhub.sismic:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit cl.finhub.sismic:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked cl.finhub.sismic:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd cl.finhub.sismic:contentInsetEnd}</code></td><td>
              Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.mustafaali.sensorssandbox:contentInsetLeft}</code></td><td>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft cl.finhub.sismic:contentInsetLeft}</code></td><td>
              Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.mustafaali.sensorssandbox:contentInsetRight}</code></td><td>
+           <tr><td><code>{@link #ActionBar_contentInsetRight cl.finhub.sismic:contentInsetRight}</code></td><td>
              Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.mustafaali.sensorssandbox:contentInsetStart}</code></td><td>
+           <tr><td><code>{@link #ActionBar_contentInsetStart cl.finhub.sismic:contentInsetStart}</code></td><td>
              Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.mustafaali.sensorssandbox:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.mustafaali.sensorssandbox:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.mustafaali.sensorssandbox:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.mustafaali.sensorssandbox:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #ActionBar_height com.mustafaali.sensorssandbox:height}</code></td><td> Specifies a fixed height.</td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.mustafaali.sensorssandbox:hideOnContentScroll}</code></td><td> Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.mustafaali.sensorssandbox:homeAsUpIndicator}</code></td><td> Up navigation glyph </td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.mustafaali.sensorssandbox:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.mustafaali.sensorssandbox:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.mustafaali.sensorssandbox:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.mustafaali.sensorssandbox:itemPadding}</code></td><td>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout cl.finhub.sismic:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions cl.finhub.sismic:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
+           <tr><td><code>{@link #ActionBar_divider cl.finhub.sismic:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
+           <tr><td><code>{@link #ActionBar_elevation cl.finhub.sismic:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #ActionBar_height cl.finhub.sismic:height}</code></td><td> Specifies a fixed height.</td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll cl.finhub.sismic:hideOnContentScroll}</code></td><td> Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator cl.finhub.sismic:homeAsUpIndicator}</code></td><td> Up navigation glyph </td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout cl.finhub.sismic:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_icon cl.finhub.sismic:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle cl.finhub.sismic:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding cl.finhub.sismic:itemPadding}</code></td><td>
              Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.mustafaali.sensorssandbox:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.mustafaali.sensorssandbox:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.mustafaali.sensorssandbox:popupTheme}</code></td><td>
+           <tr><td><code>{@link #ActionBar_logo cl.finhub.sismic:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode cl.finhub.sismic:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme cl.finhub.sismic:popupTheme}</code></td><td>
              Reference to a theme that should be used to inflate popups
              shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.mustafaali.sensorssandbox:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.mustafaali.sensorssandbox:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.mustafaali.sensorssandbox:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.mustafaali.sensorssandbox:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionBar_title com.mustafaali.sensorssandbox:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.mustafaali.sensorssandbox:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding cl.finhub.sismic:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle cl.finhub.sismic:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle cl.finhub.sismic:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle cl.finhub.sismic:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionBar_title cl.finhub.sismic:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle cl.finhub.sismic:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3783,7 +3783,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:background
+          @attr name cl.finhub.sismic:background
         */
         public static final int ActionBar_background = 10;
         /**
@@ -3797,7 +3797,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:backgroundSplit
+          @attr name cl.finhub.sismic:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
@@ -3811,7 +3811,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:backgroundStacked
+          @attr name cl.finhub.sismic:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
@@ -3832,7 +3832,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:contentInsetEnd
+          @attr name cl.finhub.sismic:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
@@ -3853,7 +3853,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:contentInsetLeft
+          @attr name cl.finhub.sismic:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
@@ -3874,7 +3874,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:contentInsetRight
+          @attr name cl.finhub.sismic:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
@@ -3895,7 +3895,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:contentInsetStart
+          @attr name cl.finhub.sismic:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
@@ -3907,7 +3907,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:customNavigationLayout
+          @attr name cl.finhub.sismic:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
@@ -3931,7 +3931,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:displayOptions
+          @attr name cl.finhub.sismic:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
@@ -3943,7 +3943,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:divider
+          @attr name cl.finhub.sismic:divider
         */
         public static final int ActionBar_divider = 9;
         /**
@@ -3961,7 +3961,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:elevation
+          @attr name cl.finhub.sismic:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
@@ -3979,7 +3979,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:height
+          @attr name cl.finhub.sismic:height
         */
         public static final int ActionBar_height = 0;
         /**
@@ -3995,7 +3995,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:hideOnContentScroll
+          @attr name cl.finhub.sismic:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
@@ -4007,7 +4007,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:homeAsUpIndicator
+          @attr name cl.finhub.sismic:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
@@ -4019,7 +4019,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:homeLayout
+          @attr name cl.finhub.sismic:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
@@ -4031,7 +4031,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:icon
+          @attr name cl.finhub.sismic:icon
         */
         public static final int ActionBar_icon = 7;
         /**
@@ -4043,7 +4043,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:indeterminateProgressStyle
+          @attr name cl.finhub.sismic:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
@@ -4064,7 +4064,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:itemPadding
+          @attr name cl.finhub.sismic:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
@@ -4076,7 +4076,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:logo
+          @attr name cl.finhub.sismic:logo
         */
         public static final int ActionBar_logo = 8;
         /**
@@ -4096,7 +4096,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:navigationMode
+          @attr name cl.finhub.sismic:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
@@ -4111,7 +4111,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:popupTheme
+          @attr name cl.finhub.sismic:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
@@ -4129,7 +4129,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:progressBarPadding
+          @attr name cl.finhub.sismic:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
@@ -4141,7 +4141,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:progressBarStyle
+          @attr name cl.finhub.sismic:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
@@ -4157,7 +4157,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:subtitle
+          @attr name cl.finhub.sismic:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
@@ -4169,7 +4169,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:subtitleTextStyle
+          @attr name cl.finhub.sismic:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
@@ -4185,7 +4185,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:title
+          @attr name cl.finhub.sismic:title
         */
         public static final int ActionBar_title = 1;
         /**
@@ -4197,7 +4197,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:titleTextStyle
+          @attr name cl.finhub.sismic:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -4249,12 +4249,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.mustafaali.sensorssandbox:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.mustafaali.sensorssandbox:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.mustafaali.sensorssandbox:closeItemLayout}</code></td><td> Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-           <tr><td><code>{@link #ActionMode_height com.mustafaali.sensorssandbox:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.mustafaali.sensorssandbox:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.mustafaali.sensorssandbox:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionMode_background cl.finhub.sismic:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit cl.finhub.sismic:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout cl.finhub.sismic:closeItemLayout}</code></td><td> Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+           <tr><td><code>{@link #ActionMode_height cl.finhub.sismic:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle cl.finhub.sismic:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle cl.finhub.sismic:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4276,7 +4276,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:background
+          @attr name cl.finhub.sismic:background
         */
         public static final int ActionMode_background = 3;
         /**
@@ -4290,7 +4290,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:backgroundSplit
+          @attr name cl.finhub.sismic:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
@@ -4302,7 +4302,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:closeItemLayout
+          @attr name cl.finhub.sismic:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
@@ -4320,7 +4320,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:height
+          @attr name cl.finhub.sismic:height
         */
         public static final int ActionMode_height = 0;
         /**
@@ -4332,7 +4332,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:subtitleTextStyle
+          @attr name cl.finhub.sismic:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
@@ -4344,7 +4344,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:titleTextStyle
+          @attr name cl.finhub.sismic:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4353,9 +4353,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.mustafaali.sensorssandbox:expandActivityOverflowButtonDrawable}</code></td><td>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable cl.finhub.sismic:expandActivityOverflowButtonDrawable}</code></td><td>
              The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.mustafaali.sensorssandbox:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount cl.finhub.sismic:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -4378,7 +4378,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:expandActivityOverflowButtonDrawable
+          @attr name cl.finhub.sismic:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
@@ -4394,7 +4394,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:initialActivityCount
+          @attr name cl.finhub.sismic:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a CompatTextView.
@@ -4403,7 +4403,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.mustafaali.sensorssandbox:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps cl.finhub.sismic:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -4420,7 +4420,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:textAllCaps
+          @attr name cl.finhub.sismic:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -4429,14 +4429,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize com.mustafaali.sensorssandbox:barSize}</code></td><td> The size of the bars when they are parallel to each other </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.mustafaali.sensorssandbox:color}</code></td><td> The drawing color for the bars </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.mustafaali.sensorssandbox:drawableSize}</code></td><td> The total size of the drawable </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.mustafaali.sensorssandbox:gapBetweenBars}</code></td><td> The max gap between the bars when they are parallel to each other </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.mustafaali.sensorssandbox:middleBarArrowSize}</code></td><td> The size of the middle bar when top and bottom bars merge into middle bar to form an arrow </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.mustafaali.sensorssandbox:spinBars}</code></td><td> Whether bars should rotate or not during transition </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.mustafaali.sensorssandbox:thickness}</code></td><td> The thickness (stroke size) for the bar paint </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.mustafaali.sensorssandbox:topBottomBarArrowSize}</code></td><td> The size of the top and bottom bars when they merge to the middle bar to form an arrow </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize cl.finhub.sismic:barSize}</code></td><td> The size of the bars when they are parallel to each other </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color cl.finhub.sismic:color}</code></td><td> The drawing color for the bars </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize cl.finhub.sismic:drawableSize}</code></td><td> The total size of the drawable </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars cl.finhub.sismic:gapBetweenBars}</code></td><td> The max gap between the bars when they are parallel to each other </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize cl.finhub.sismic:middleBarArrowSize}</code></td><td> The size of the middle bar when top and bottom bars merge into middle bar to form an arrow </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars cl.finhub.sismic:spinBars}</code></td><td> Whether bars should rotate or not during transition </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness cl.finhub.sismic:thickness}</code></td><td> The thickness (stroke size) for the bar paint </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize cl.finhub.sismic:topBottomBarArrowSize}</code></td><td> The size of the top and bottom bars when they merge to the middle bar to form an arrow </td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -4466,7 +4466,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:barSize
+          @attr name cl.finhub.sismic:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
@@ -4483,7 +4483,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:color
+          @attr name cl.finhub.sismic:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
@@ -4501,7 +4501,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:drawableSize
+          @attr name cl.finhub.sismic:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
@@ -4519,7 +4519,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:gapBetweenBars
+          @attr name cl.finhub.sismic:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
@@ -4537,7 +4537,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:middleBarArrowSize
+          @attr name cl.finhub.sismic:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
@@ -4553,7 +4553,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:spinBars
+          @attr name cl.finhub.sismic:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
@@ -4571,7 +4571,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:thickness
+          @attr name cl.finhub.sismic:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
@@ -4589,7 +4589,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:topBottomBarArrowSize
+          @attr name cl.finhub.sismic:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -4611,12 +4611,12 @@ containing a value of this type.
              for a row, "vertical" for a column.</td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td>
              Defines the maximum weight sum.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.mustafaali.sensorssandbox:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.mustafaali.sensorssandbox:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.mustafaali.sensorssandbox:measureWithLargestChild}</code></td><td>
+           <tr><td><code>{@link #LinearLayoutCompat_divider cl.finhub.sismic:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding cl.finhub.sismic:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild cl.finhub.sismic:measureWithLargestChild}</code></td><td>
              When set to true, all children with a weight will be considered having
              the minimum size of the largest child.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.mustafaali.sensorssandbox:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers cl.finhub.sismic:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -4702,7 +4702,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:divider
+          @attr name cl.finhub.sismic:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
@@ -4720,7 +4720,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:dividerPadding
+          @attr name cl.finhub.sismic:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
@@ -4740,7 +4740,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:measureWithLargestChild
+          @attr name cl.finhub.sismic:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
@@ -4761,7 +4761,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:showDividers
+          @attr name cl.finhub.sismic:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -4846,9 +4846,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.mustafaali.sensorssandbox:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.mustafaali.sensorssandbox:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.mustafaali.sensorssandbox:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop cl.finhub.sismic:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio cl.finhub.sismic:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust cl.finhub.sismic:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -4858,7 +4858,7 @@ containing a value of this type.
             0x7f01012d, 0x7f01012e, 0x7f01012f
         };
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -4868,11 +4868,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:circleCrop
+          @attr name cl.finhub.sismic:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -4882,11 +4882,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:imageAspectRatio
+          @attr name cl.finhub.sismic:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -4900,7 +4900,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:imageAspectRatioAdjust
+          @attr name cl.finhub.sismic:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -4909,23 +4909,23 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_ambientEnabled com.mustafaali.sensorssandbox:ambientEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.mustafaali.sensorssandbox:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.mustafaali.sensorssandbox:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.mustafaali.sensorssandbox:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.mustafaali.sensorssandbox:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.mustafaali.sensorssandbox:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode com.mustafaali.sensorssandbox:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.mustafaali.sensorssandbox:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.mustafaali.sensorssandbox:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.mustafaali.sensorssandbox:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.mustafaali.sensorssandbox:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.mustafaali.sensorssandbox:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.mustafaali.sensorssandbox:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.mustafaali.sensorssandbox:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.mustafaali.sensorssandbox:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.mustafaali.sensorssandbox:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.mustafaali.sensorssandbox:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_ambientEnabled cl.finhub.sismic:ambientEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing cl.finhub.sismic:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat cl.finhub.sismic:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng cl.finhub.sismic:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt cl.finhub.sismic:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom cl.finhub.sismic:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode cl.finhub.sismic:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType cl.finhub.sismic:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass cl.finhub.sismic:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar cl.finhub.sismic:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures cl.finhub.sismic:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures cl.finhub.sismic:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures cl.finhub.sismic:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls cl.finhub.sismic:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures cl.finhub.sismic:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle cl.finhub.sismic:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop cl.finhub.sismic:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_ambientEnabled
            @see #MapAttrs_cameraBearing
@@ -4953,7 +4953,7 @@ containing a value of this type.
             0x7f01012c
         };
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#ambientEnabled}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#ambientEnabled}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -4963,11 +4963,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:ambientEnabled
+          @attr name cl.finhub.sismic:ambientEnabled
         */
         public static final int MapAttrs_ambientEnabled = 16;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -4977,11 +4977,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:cameraBearing
+          @attr name cl.finhub.sismic:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -4991,11 +4991,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:cameraTargetLat
+          @attr name cl.finhub.sismic:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5005,11 +5005,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:cameraTargetLng
+          @attr name cl.finhub.sismic:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5019,11 +5019,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:cameraTilt
+          @attr name cl.finhub.sismic:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5033,11 +5033,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:cameraZoom
+          @attr name cl.finhub.sismic:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5047,11 +5047,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:liteMode
+          @attr name cl.finhub.sismic:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#mapType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5067,11 +5067,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:mapType
+          @attr name cl.finhub.sismic:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5081,11 +5081,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:uiCompass
+          @attr name cl.finhub.sismic:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5095,11 +5095,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:uiMapToolbar
+          @attr name cl.finhub.sismic:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5109,11 +5109,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:uiRotateGestures
+          @attr name cl.finhub.sismic:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5123,11 +5123,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:uiScrollGestures
+          @attr name cl.finhub.sismic:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5137,11 +5137,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:uiTiltGestures
+          @attr name cl.finhub.sismic:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5151,11 +5151,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:uiZoomControls
+          @attr name cl.finhub.sismic:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5165,11 +5165,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:uiZoomGestures
+          @attr name cl.finhub.sismic:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5179,11 +5179,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:useViewLifecycle
+          @attr name cl.finhub.sismic:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5193,7 +5193,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:zOrderOnTop
+          @attr name cl.finhub.sismic:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MenuGroup.
@@ -5288,12 +5288,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.mustafaali.sensorssandbox:actionLayout}</code></td><td>
+           <tr><td><code>{@link #MenuItem_actionLayout cl.finhub.sismic:actionLayout}</code></td><td>
              An optional layout to be used as an action view.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.mustafaali.sensorssandbox:actionProviderClass}</code></td><td>
+           <tr><td><code>{@link #MenuItem_actionProviderClass cl.finhub.sismic:actionProviderClass}</code></td><td>
              The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.mustafaali.sensorssandbox:actionViewClass}</code></td><td>
+           <tr><td><code>{@link #MenuItem_actionViewClass cl.finhub.sismic:actionViewClass}</code></td><td>
              The name of an optional View class to instantiate and use as an
              action view.</td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td>
@@ -5318,7 +5318,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td>
              The condensed title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.mustafaali.sensorssandbox:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction cl.finhub.sismic:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -5358,7 +5358,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionLayout
+          @attr name cl.finhub.sismic:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
@@ -5379,7 +5379,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionProviderClass
+          @attr name cl.finhub.sismic:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
@@ -5399,7 +5399,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionViewClass
+          @attr name cl.finhub.sismic:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -5581,7 +5581,7 @@ containing a value of this type.
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:showAsAction
+          @attr name cl.finhub.sismic:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -5597,7 +5597,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td> Default appearance of menu item text.</td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td> Default vertical divider between menu items.</td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td> Default animations for the menu.</td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.mustafaali.sensorssandbox:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing cl.finhub.sismic:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -5688,7 +5688,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:preserveIconSpacing
+          @attr name cl.finhub.sismic:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a Plot.
@@ -5697,22 +5697,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Plot_backgroundColor com.mustafaali.sensorssandbox:backgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_borderColor com.mustafaali.sensorssandbox:borderColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_borderThickness com.mustafaali.sensorssandbox:borderThickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_label com.mustafaali.sensorssandbox:label}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_labelTextColor com.mustafaali.sensorssandbox:labelTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_labelTextSize com.mustafaali.sensorssandbox:labelTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_marginBottom com.mustafaali.sensorssandbox:marginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_marginLeft com.mustafaali.sensorssandbox:marginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_marginRight com.mustafaali.sensorssandbox:marginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_marginTop com.mustafaali.sensorssandbox:marginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_markupEnabled com.mustafaali.sensorssandbox:markupEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_paddingBottom com.mustafaali.sensorssandbox:paddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_paddingLeft com.mustafaali.sensorssandbox:paddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_paddingRight com.mustafaali.sensorssandbox:paddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_paddingTop com.mustafaali.sensorssandbox:paddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Plot_renderMode com.mustafaali.sensorssandbox:renderMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_backgroundColor cl.finhub.sismic:backgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_borderColor cl.finhub.sismic:borderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_borderThickness cl.finhub.sismic:borderThickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_label cl.finhub.sismic:label}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_labelTextColor cl.finhub.sismic:labelTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_labelTextSize cl.finhub.sismic:labelTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_marginBottom cl.finhub.sismic:marginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_marginLeft cl.finhub.sismic:marginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_marginRight cl.finhub.sismic:marginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_marginTop cl.finhub.sismic:marginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_markupEnabled cl.finhub.sismic:markupEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_paddingBottom cl.finhub.sismic:paddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_paddingLeft cl.finhub.sismic:paddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_paddingRight cl.finhub.sismic:paddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_paddingTop cl.finhub.sismic:paddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Plot_renderMode cl.finhub.sismic:renderMode}</code></td><td></td></tr>
            </table>
            @see #Plot_backgroundColor
            @see #Plot_borderColor
@@ -5738,7 +5738,7 @@ containing a value of this type.
             0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#backgroundColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#backgroundColor}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5749,11 +5749,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:backgroundColor
+          @attr name cl.finhub.sismic:backgroundColor
         */
         public static final int Plot_backgroundColor = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#borderColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#borderColor}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5764,11 +5764,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:borderColor
+          @attr name cl.finhub.sismic:borderColor
         */
         public static final int Plot_borderColor = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#borderThickness}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#borderThickness}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5780,11 +5780,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:borderThickness
+          @attr name cl.finhub.sismic:borderThickness
         */
         public static final int Plot_borderThickness = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#label}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#label}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5794,11 +5794,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:label
+          @attr name cl.finhub.sismic:label
         */
         public static final int Plot_label = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#labelTextColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#labelTextColor}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5809,11 +5809,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:labelTextColor
+          @attr name cl.finhub.sismic:labelTextColor
         */
         public static final int Plot_labelTextColor = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#labelTextSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#labelTextSize}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5825,11 +5825,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:labelTextSize
+          @attr name cl.finhub.sismic:labelTextSize
         */
         public static final int Plot_labelTextSize = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#marginBottom}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#marginBottom}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5841,11 +5841,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:marginBottom
+          @attr name cl.finhub.sismic:marginBottom
         */
         public static final int Plot_marginBottom = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#marginLeft}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#marginLeft}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5857,11 +5857,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:marginLeft
+          @attr name cl.finhub.sismic:marginLeft
         */
         public static final int Plot_marginLeft = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#marginRight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#marginRight}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5873,11 +5873,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:marginRight
+          @attr name cl.finhub.sismic:marginRight
         */
         public static final int Plot_marginRight = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#marginTop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#marginTop}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5889,11 +5889,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:marginTop
+          @attr name cl.finhub.sismic:marginTop
         */
         public static final int Plot_marginTop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#markupEnabled}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#markupEnabled}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5903,11 +5903,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:markupEnabled
+          @attr name cl.finhub.sismic:markupEnabled
         */
         public static final int Plot_markupEnabled = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#paddingBottom}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#paddingBottom}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5919,11 +5919,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:paddingBottom
+          @attr name cl.finhub.sismic:paddingBottom
         */
         public static final int Plot_paddingBottom = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#paddingLeft}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#paddingLeft}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5935,11 +5935,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:paddingLeft
+          @attr name cl.finhub.sismic:paddingLeft
         */
         public static final int Plot_paddingLeft = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#paddingRight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#paddingRight}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5951,11 +5951,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:paddingRight
+          @attr name cl.finhub.sismic:paddingRight
         */
         public static final int Plot_paddingRight = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#paddingTop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#paddingTop}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5967,11 +5967,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:paddingTop
+          @attr name cl.finhub.sismic:paddingTop
         */
         public static final int Plot_paddingTop = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#renderMode}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#renderMode}
           attribute's value can be found in the {@link #Plot} array.
 
 
@@ -5984,7 +5984,7 @@ containing a value of this type.
 <tr><td><code>use_background_thread</code></td><td>0</td><td></td></tr>
 <tr><td><code>use_main_thread</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:renderMode
+          @attr name cl.finhub.sismic:renderMode
         */
         public static final int Plot_renderMode = 0;
         /** Attributes that can be used with a PopupWindow.
@@ -5994,7 +5994,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.mustafaali.sensorssandbox:overlapAnchor}</code></td><td> Whether the popup window should overlap its anchor view.</td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor cl.finhub.sismic:overlapAnchor}</code></td><td> Whether the popup window should overlap its anchor view.</td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -6021,7 +6021,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:overlapAnchor
+          @attr name cl.finhub.sismic:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -6030,7 +6030,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.mustafaali.sensorssandbox:state_above_anchor}</code></td><td> State identifier indicating the popup will be above the anchor.</td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor cl.finhub.sismic:state_above_anchor}</code></td><td> State identifier indicating the popup will be above the anchor.</td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -6050,7 +6050,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:state_above_anchor
+          @attr name cl.finhub.sismic:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -6063,18 +6063,18 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.mustafaali.sensorssandbox:closeIcon}</code></td><td> Close button icon </td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.mustafaali.sensorssandbox:commitIcon}</code></td><td> Commit icon shown in the query suggestion row </td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.mustafaali.sensorssandbox:goIcon}</code></td><td> Go button icon </td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.mustafaali.sensorssandbox:iconifiedByDefault}</code></td><td>
+           <tr><td><code>{@link #SearchView_closeIcon cl.finhub.sismic:closeIcon}</code></td><td> Close button icon </td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon cl.finhub.sismic:commitIcon}</code></td><td> Commit icon shown in the query suggestion row </td></tr>
+           <tr><td><code>{@link #SearchView_goIcon cl.finhub.sismic:goIcon}</code></td><td> Go button icon </td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault cl.finhub.sismic:iconifiedByDefault}</code></td><td>
              The default state of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_layout com.mustafaali.sensorssandbox:layout}</code></td><td> The layout to use for the search view.</td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.mustafaali.sensorssandbox:queryBackground}</code></td><td> Background for the section containing the search query </td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.mustafaali.sensorssandbox:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.mustafaali.sensorssandbox:searchIcon}</code></td><td> Search icon </td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.mustafaali.sensorssandbox:submitBackground}</code></td><td> Background for the section containing the action (e.</td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.mustafaali.sensorssandbox:suggestionRowLayout}</code></td><td> Layout for query suggestion rows </td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.mustafaali.sensorssandbox:voiceIcon}</code></td><td> Voice button icon </td></tr>
+           <tr><td><code>{@link #SearchView_layout cl.finhub.sismic:layout}</code></td><td> The layout to use for the search view.</td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground cl.finhub.sismic:queryBackground}</code></td><td> Background for the section containing the search query </td></tr>
+           <tr><td><code>{@link #SearchView_queryHint cl.finhub.sismic:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon cl.finhub.sismic:searchIcon}</code></td><td> Search icon </td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground cl.finhub.sismic:submitBackground}</code></td><td> Background for the section containing the action (e.</td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout cl.finhub.sismic:suggestionRowLayout}</code></td><td> Layout for query suggestion rows </td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon cl.finhub.sismic:voiceIcon}</code></td><td> Voice button icon </td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -6140,7 +6140,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:closeIcon
+          @attr name cl.finhub.sismic:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
@@ -6152,7 +6152,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:commitIcon
+          @attr name cl.finhub.sismic:commitIcon
         */
         public static final int SearchView_commitIcon = 11;
         /**
@@ -6164,7 +6164,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:goIcon
+          @attr name cl.finhub.sismic:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
@@ -6183,7 +6183,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:iconifiedByDefault
+          @attr name cl.finhub.sismic:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
@@ -6195,7 +6195,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:layout
+          @attr name cl.finhub.sismic:layout
         */
         public static final int SearchView_layout = 4;
         /**
@@ -6207,7 +6207,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:queryBackground
+          @attr name cl.finhub.sismic:queryBackground
         */
         public static final int SearchView_queryBackground = 13;
         /**
@@ -6223,7 +6223,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:queryHint
+          @attr name cl.finhub.sismic:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
@@ -6235,7 +6235,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:searchIcon
+          @attr name cl.finhub.sismic:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
@@ -6247,7 +6247,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:submitBackground
+          @attr name cl.finhub.sismic:submitBackground
         */
         public static final int SearchView_submitBackground = 14;
         /**
@@ -6259,7 +6259,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:suggestionRowLayout
+          @attr name cl.finhub.sismic:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
@@ -6271,7 +6271,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:voiceIcon
+          @attr name cl.finhub.sismic:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
         /** Attributes that can be used with a SignInButton.
@@ -6280,9 +6280,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize com.mustafaali.sensorssandbox:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme com.mustafaali.sensorssandbox:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris com.mustafaali.sensorssandbox:scopeUris}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize cl.finhub.sismic:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme cl.finhub.sismic:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris cl.finhub.sismic:scopeUris}</code></td><td></td></tr>
            </table>
            @see #SignInButton_buttonSize
            @see #SignInButton_colorScheme
@@ -6292,7 +6292,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010130, 0x7f010131, 0x7f010132
         };
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#buttonSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#buttonSize}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -6308,11 +6308,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>wide</code></td><td>1</td><td></td></tr>
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:buttonSize
+          @attr name cl.finhub.sismic:buttonSize
         */
         public static final int SignInButton_buttonSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#colorScheme}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#colorScheme}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -6328,18 +6328,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:colorScheme
+          @attr name cl.finhub.sismic:colorScheme
         */
         public static final int SignInButton_colorScheme = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#scopeUris}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#scopeUris}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.mustafaali.sensorssandbox:scopeUris
+          @attr name cl.finhub.sismic:scopeUris
         */
         public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a Spinner.
@@ -6359,14 +6359,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.mustafaali.sensorssandbox:disableChildrenWhenDisabled}</code></td><td>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled cl.finhub.sismic:disableChildrenWhenDisabled}</code></td><td>
              Whether this spinner should mark child views as enabled/disabled when
              the spinner itself is enabled/disabled.</td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.mustafaali.sensorssandbox:popupPromptView}</code></td><td>
+           <tr><td><code>{@link #Spinner_popupPromptView cl.finhub.sismic:popupPromptView}</code></td><td>
              Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.mustafaali.sensorssandbox:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.mustafaali.sensorssandbox:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
+           <tr><td><code>{@link #Spinner_prompt cl.finhub.sismic:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode cl.finhub.sismic:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -6467,7 +6467,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:disableChildrenWhenDisabled
+          @attr name cl.finhub.sismic:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
@@ -6483,7 +6483,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:popupPromptView
+          @attr name cl.finhub.sismic:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
@@ -6495,7 +6495,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:prompt
+          @attr name cl.finhub.sismic:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
@@ -6517,7 +6517,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:spinnerMode
+          @attr name cl.finhub.sismic:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -6529,13 +6529,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td> Text to use when the switch is in the unchecked/"off" state.</td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td> Text to use when the switch is in the checked/"on" state.</td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td> Drawable to use as the "thumb" that switches back and forth.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.mustafaali.sensorssandbox:showText}</code></td><td> Whether to draw on/off text.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.mustafaali.sensorssandbox:splitTrack}</code></td><td> Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.mustafaali.sensorssandbox:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.mustafaali.sensorssandbox:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.mustafaali.sensorssandbox:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.mustafaali.sensorssandbox:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.mustafaali.sensorssandbox:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText cl.finhub.sismic:showText}</code></td><td> Whether to draw on/off text.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack cl.finhub.sismic:splitTrack}</code></td><td> Whether to split the track and leave a gap for the thumb drawable.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth cl.finhub.sismic:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding cl.finhub.sismic:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance cl.finhub.sismic:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding cl.finhub.sismic:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_track cl.finhub.sismic:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -6593,7 +6593,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:showText
+          @attr name cl.finhub.sismic:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
@@ -6609,7 +6609,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:splitTrack
+          @attr name cl.finhub.sismic:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
@@ -6627,7 +6627,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:switchMinWidth
+          @attr name cl.finhub.sismic:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
@@ -6645,7 +6645,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:switchPadding
+          @attr name cl.finhub.sismic:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
@@ -6657,7 +6657,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:switchTextAppearance
+          @attr name cl.finhub.sismic:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
@@ -6675,7 +6675,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:thumbTextPadding
+          @attr name cl.finhub.sismic:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
@@ -6687,7 +6687,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:track
+          @attr name cl.finhub.sismic:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a Theme.
@@ -6696,122 +6696,122 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.mustafaali.sensorssandbox:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.mustafaali.sensorssandbox:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.mustafaali.sensorssandbox:actionBarPopupTheme}</code></td><td>
+           <tr><td><code>{@link #Theme_actionBarDivider cl.finhub.sismic:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground cl.finhub.sismic:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme cl.finhub.sismic:actionBarPopupTheme}</code></td><td>
              Reference to a theme that should be used to inflate popups
              shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.mustafaali.sensorssandbox:actionBarSize}</code></td><td>
+           <tr><td><code>{@link #Theme_actionBarSize cl.finhub.sismic:actionBarSize}</code></td><td>
              Size of the Action Bar, including the contextual
              bar used to present Action Modes.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.mustafaali.sensorssandbox:actionBarSplitStyle}</code></td><td>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle cl.finhub.sismic:actionBarSplitStyle}</code></td><td>
              Reference to a style for the split Action Bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.mustafaali.sensorssandbox:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.mustafaali.sensorssandbox:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.mustafaali.sensorssandbox:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.mustafaali.sensorssandbox:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.mustafaali.sensorssandbox:actionBarTheme}</code></td><td>
+           <tr><td><code>{@link #Theme_actionBarStyle cl.finhub.sismic:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle cl.finhub.sismic:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle cl.finhub.sismic:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle cl.finhub.sismic:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme cl.finhub.sismic:actionBarTheme}</code></td><td>
              Reference to a theme that should be used to inflate the
              action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.mustafaali.sensorssandbox:actionBarWidgetTheme}</code></td><td>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme cl.finhub.sismic:actionBarWidgetTheme}</code></td><td>
              Reference to a theme that should be used to inflate widgets
              and layouts destined for the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.mustafaali.sensorssandbox:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.mustafaali.sensorssandbox:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.mustafaali.sensorssandbox:actionMenuTextAppearance}</code></td><td>
+           <tr><td><code>{@link #Theme_actionButtonStyle cl.finhub.sismic:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle cl.finhub.sismic:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance cl.finhub.sismic:actionMenuTextAppearance}</code></td><td>
              TextAppearance style that will be applied to text that
              appears within action menu items.</td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.mustafaali.sensorssandbox:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.mustafaali.sensorssandbox:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.mustafaali.sensorssandbox:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.mustafaali.sensorssandbox:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.mustafaali.sensorssandbox:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.mustafaali.sensorssandbox:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.mustafaali.sensorssandbox:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.mustafaali.sensorssandbox:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.mustafaali.sensorssandbox:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.mustafaali.sensorssandbox:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.mustafaali.sensorssandbox:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.mustafaali.sensorssandbox:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.mustafaali.sensorssandbox:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.mustafaali.sensorssandbox:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.mustafaali.sensorssandbox:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.mustafaali.sensorssandbox:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.mustafaali.sensorssandbox:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor cl.finhub.sismic:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground cl.finhub.sismic:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle cl.finhub.sismic:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable cl.finhub.sismic:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable cl.finhub.sismic:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable cl.finhub.sismic:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable cl.finhub.sismic:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable cl.finhub.sismic:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle cl.finhub.sismic:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable cl.finhub.sismic:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable cl.finhub.sismic:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground cl.finhub.sismic:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle cl.finhub.sismic:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable cl.finhub.sismic:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle cl.finhub.sismic:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle cl.finhub.sismic:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle cl.finhub.sismic:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.mustafaali.sensorssandbox:buttonBarButtonStyle}</code></td><td>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle cl.finhub.sismic:buttonBarButtonStyle}</code></td><td>
              A style that may be applied to Buttons placed within a
              LinearLayout with the style buttonBarStyle to form a button bar.</td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.mustafaali.sensorssandbox:buttonBarStyle}</code></td><td>
+           <tr><td><code>{@link #Theme_buttonBarStyle cl.finhub.sismic:buttonBarStyle}</code></td><td>
          A style that may be applied to horizontal LinearLayouts
          to form a button bar.</td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.mustafaali.sensorssandbox:colorAccent}</code></td><td>
+           <tr><td><code>{@link #Theme_colorAccent cl.finhub.sismic:colorAccent}</code></td><td>
              Bright complement to the primary branding color.</td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.mustafaali.sensorssandbox:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.mustafaali.sensorssandbox:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.mustafaali.sensorssandbox:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.mustafaali.sensorssandbox:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.mustafaali.sensorssandbox:colorPrimary}</code></td><td>
+           <tr><td><code>{@link #Theme_colorButtonNormal cl.finhub.sismic:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated cl.finhub.sismic:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight cl.finhub.sismic:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal cl.finhub.sismic:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary cl.finhub.sismic:colorPrimary}</code></td><td>
              The primary branding color for the app.</td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.mustafaali.sensorssandbox:colorPrimaryDark}</code></td><td>
+           <tr><td><code>{@link #Theme_colorPrimaryDark cl.finhub.sismic:colorPrimaryDark}</code></td><td>
              Dark variant of the primary branding color.</td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.mustafaali.sensorssandbox:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.mustafaali.sensorssandbox:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.mustafaali.sensorssandbox:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.mustafaali.sensorssandbox:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.mustafaali.sensorssandbox:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.mustafaali.sensorssandbox:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.mustafaali.sensorssandbox:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.mustafaali.sensorssandbox:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.mustafaali.sensorssandbox:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.mustafaali.sensorssandbox:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.mustafaali.sensorssandbox:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.mustafaali.sensorssandbox:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.mustafaali.sensorssandbox:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.mustafaali.sensorssandbox:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.mustafaali.sensorssandbox:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.mustafaali.sensorssandbox:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.mustafaali.sensorssandbox:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.mustafaali.sensorssandbox:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.mustafaali.sensorssandbox:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.mustafaali.sensorssandbox:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.mustafaali.sensorssandbox:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.mustafaali.sensorssandbox:selectableItemBackground}</code></td><td>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal cl.finhub.sismic:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal cl.finhub.sismic:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical cl.finhub.sismic:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle cl.finhub.sismic:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight cl.finhub.sismic:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground cl.finhub.sismic:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
+           <tr><td><code>{@link #Theme_editTextColor cl.finhub.sismic:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator cl.finhub.sismic:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator cl.finhub.sismic:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle cl.finhub.sismic:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight cl.finhub.sismic:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge cl.finhub.sismic:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall cl.finhub.sismic:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft cl.finhub.sismic:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight cl.finhub.sismic:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
+           <tr><td><code>{@link #Theme_panelBackground cl.finhub.sismic:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme cl.finhub.sismic:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth cl.finhub.sismic:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle cl.finhub.sismic:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle cl.finhub.sismic:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle cl.finhub.sismic:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground cl.finhub.sismic:selectableItemBackground}</code></td><td>
              A style that may be applied to buttons or other selectable items
              that should react to pressed and focus states, but that do not
              have a clear visual border along the edges.</td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.mustafaali.sensorssandbox:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.mustafaali.sensorssandbox:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.mustafaali.sensorssandbox:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.mustafaali.sensorssandbox:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.mustafaali.sensorssandbox:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.mustafaali.sensorssandbox:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.mustafaali.sensorssandbox:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.mustafaali.sensorssandbox:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.mustafaali.sensorssandbox:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.mustafaali.sensorssandbox:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.mustafaali.sensorssandbox:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.mustafaali.sensorssandbox:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.mustafaali.sensorssandbox:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.mustafaali.sensorssandbox:windowActionBar}</code></td><td>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless cl.finhub.sismic:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle cl.finhub.sismic:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle cl.finhub.sismic:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #Theme_switchStyle cl.finhub.sismic:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu cl.finhub.sismic:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem cl.finhub.sismic:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall cl.finhub.sismic:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle cl.finhub.sismic:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle cl.finhub.sismic:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu cl.finhub.sismic:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl cl.finhub.sismic:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle cl.finhub.sismic:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle cl.finhub.sismic:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar cl.finhub.sismic:windowActionBar}</code></td><td>
              Flag indicating whether this window should have an Action Bar
              in place of the usual title bar.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.mustafaali.sensorssandbox:windowActionBarOverlay}</code></td><td>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay cl.finhub.sismic:windowActionBarOverlay}</code></td><td>
              Flag indicating whether this window's Action Bar should overlay
              application content.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.mustafaali.sensorssandbox:windowActionModeOverlay}</code></td><td>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay cl.finhub.sismic:windowActionModeOverlay}</code></td><td>
              Flag indicating whether action modes should overlay window content
              when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.mustafaali.sensorssandbox:windowFixedHeightMajor}</code></td><td>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor cl.finhub.sismic:windowFixedHeightMajor}</code></td><td>
              A fixed height for the window along the major axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.mustafaali.sensorssandbox:windowFixedHeightMinor}</code></td><td>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor cl.finhub.sismic:windowFixedHeightMinor}</code></td><td>
              A fixed height for the window along the minor axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.mustafaali.sensorssandbox:windowFixedWidthMajor}</code></td><td>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor cl.finhub.sismic:windowFixedWidthMajor}</code></td><td>
              A fixed width for the window along the major axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.mustafaali.sensorssandbox:windowFixedWidthMinor}</code></td><td>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor cl.finhub.sismic:windowFixedWidthMinor}</code></td><td>
              A fixed width for the window along the minor axis of the screen,
              that is, when in portrait.</td></tr>
            </table>
@@ -6931,7 +6931,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarDivider
+          @attr name cl.finhub.sismic:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 19;
         /**
@@ -6943,7 +6943,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarItemBackground
+          @attr name cl.finhub.sismic:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 20;
         /**
@@ -6958,7 +6958,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarPopupTheme
+          @attr name cl.finhub.sismic:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 13;
         /**
@@ -6987,7 +6987,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarSize
+          @attr name cl.finhub.sismic:actionBarSize
         */
         public static final int Theme_actionBarSize = 18;
         /**
@@ -7004,7 +7004,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarSplitStyle
+          @attr name cl.finhub.sismic:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 15;
         /**
@@ -7016,17 +7016,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarStyle
+          @attr name cl.finhub.sismic:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:actionBarTabBarStyle
+          @attr name cl.finhub.sismic:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 9;
         /**
@@ -7038,17 +7038,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarTabStyle
+          @attr name cl.finhub.sismic:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:actionBarTabTextStyle
+          @attr name cl.finhub.sismic:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 10;
         /**
@@ -7064,7 +7064,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarTheme
+          @attr name cl.finhub.sismic:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 16;
         /**
@@ -7084,7 +7084,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionBarWidgetTheme
+          @attr name cl.finhub.sismic:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 17;
         /**
@@ -7096,7 +7096,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionButtonStyle
+          @attr name cl.finhub.sismic:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 43;
         /**
@@ -7108,7 +7108,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionDropDownStyle
+          @attr name cl.finhub.sismic:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 38;
         /**
@@ -7123,7 +7123,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionMenuTextAppearance
+          @attr name cl.finhub.sismic:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 21;
         /**
@@ -7138,7 +7138,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionMenuTextColor
+          @attr name cl.finhub.sismic:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 22;
         /**
@@ -7150,17 +7150,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeBackground
+          @attr name cl.finhub.sismic:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 25;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:actionModeCloseButtonStyle
+          @attr name cl.finhub.sismic:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 24;
         /**
@@ -7172,7 +7172,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeCloseDrawable
+          @attr name cl.finhub.sismic:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 27;
         /**
@@ -7184,7 +7184,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeCopyDrawable
+          @attr name cl.finhub.sismic:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 29;
         /**
@@ -7196,7 +7196,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeCutDrawable
+          @attr name cl.finhub.sismic:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 28;
         /**
@@ -7208,7 +7208,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeFindDrawable
+          @attr name cl.finhub.sismic:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 33;
         /**
@@ -7220,7 +7220,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModePasteDrawable
+          @attr name cl.finhub.sismic:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 30;
         /**
@@ -7232,7 +7232,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModePopupWindowStyle
+          @attr name cl.finhub.sismic:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 35;
         /**
@@ -7244,7 +7244,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeSelectAllDrawable
+          @attr name cl.finhub.sismic:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 31;
         /**
@@ -7256,7 +7256,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeShareDrawable
+          @attr name cl.finhub.sismic:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 32;
         /**
@@ -7268,17 +7268,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeSplitBackground
+          @attr name cl.finhub.sismic:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:actionModeStyle
+          @attr name cl.finhub.sismic:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 23;
         /**
@@ -7290,27 +7290,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:actionModeWebSearchDrawable
+          @attr name cl.finhub.sismic:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:actionOverflowButtonStyle
+          @attr name cl.finhub.sismic:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:actionOverflowMenuStyle
+          @attr name cl.finhub.sismic:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 12;
         /**
@@ -7322,7 +7322,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:activityChooserViewStyle
+          @attr name cl.finhub.sismic:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 50;
         /**
@@ -7343,7 +7343,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:buttonBarButtonStyle
+          @attr name cl.finhub.sismic:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 45;
         /**
@@ -7358,7 +7358,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:buttonBarStyle
+          @attr name cl.finhub.sismic:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 44;
         /**
@@ -7378,7 +7378,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:colorAccent
+          @attr name cl.finhub.sismic:colorAccent
         */
         public static final int Theme_colorAccent = 77;
         /**
@@ -7395,7 +7395,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:colorButtonNormal
+          @attr name cl.finhub.sismic:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 81;
         /**
@@ -7412,7 +7412,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:colorControlActivated
+          @attr name cl.finhub.sismic:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 79;
         /**
@@ -7429,7 +7429,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:colorControlHighlight
+          @attr name cl.finhub.sismic:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 80;
         /**
@@ -7446,7 +7446,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:colorControlNormal
+          @attr name cl.finhub.sismic:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 78;
         /**
@@ -7466,7 +7466,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:colorPrimary
+          @attr name cl.finhub.sismic:colorPrimary
         */
         public static final int Theme_colorPrimary = 75;
         /**
@@ -7486,7 +7486,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:colorPrimaryDark
+          @attr name cl.finhub.sismic:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 76;
         /**
@@ -7503,7 +7503,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:colorSwitchThumbNormal
+          @attr name cl.finhub.sismic:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 82;
         /**
@@ -7515,7 +7515,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:dividerHorizontal
+          @attr name cl.finhub.sismic:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 49;
         /**
@@ -7527,7 +7527,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:dividerVertical
+          @attr name cl.finhub.sismic:dividerVertical
         */
         public static final int Theme_dividerVertical = 48;
         /**
@@ -7539,7 +7539,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:dropDownListViewStyle
+          @attr name cl.finhub.sismic:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 67;
         /**
@@ -7557,7 +7557,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:dropdownListPreferredItemHeight
+          @attr name cl.finhub.sismic:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 39;
         /**
@@ -7569,7 +7569,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:editTextBackground
+          @attr name cl.finhub.sismic:editTextBackground
         */
         public static final int Theme_editTextBackground = 56;
         /**
@@ -7583,7 +7583,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:editTextColor
+          @attr name cl.finhub.sismic:editTextColor
         */
         public static final int Theme_editTextColor = 55;
         /**
@@ -7595,7 +7595,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:homeAsUpIndicator
+          @attr name cl.finhub.sismic:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 42;
         /**
@@ -7607,17 +7607,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:listChoiceBackgroundIndicator
+          @attr name cl.finhub.sismic:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 74;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:listPopupWindowStyle
+          @attr name cl.finhub.sismic:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 68;
         /**
@@ -7635,7 +7635,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:listPreferredItemHeight
+          @attr name cl.finhub.sismic:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 62;
         /**
@@ -7653,7 +7653,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:listPreferredItemHeightLarge
+          @attr name cl.finhub.sismic:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 64;
         /**
@@ -7671,7 +7671,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:listPreferredItemHeightSmall
+          @attr name cl.finhub.sismic:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 63;
         /**
@@ -7689,7 +7689,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:listPreferredItemPaddingLeft
+          @attr name cl.finhub.sismic:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 65;
         /**
@@ -7707,7 +7707,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:listPreferredItemPaddingRight
+          @attr name cl.finhub.sismic:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 66;
         /**
@@ -7719,7 +7719,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:panelBackground
+          @attr name cl.finhub.sismic:panelBackground
         */
         public static final int Theme_panelBackground = 71;
         /**
@@ -7731,7 +7731,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:panelMenuListTheme
+          @attr name cl.finhub.sismic:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 73;
         /**
@@ -7749,7 +7749,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:panelMenuListWidth
+          @attr name cl.finhub.sismic:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 72;
         /**
@@ -7761,7 +7761,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:popupMenuStyle
+          @attr name cl.finhub.sismic:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 53;
         /**
@@ -7773,7 +7773,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:popupWindowStyle
+          @attr name cl.finhub.sismic:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 54;
         /**
@@ -7785,7 +7785,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:searchViewStyle
+          @attr name cl.finhub.sismic:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 61;
         /**
@@ -7801,7 +7801,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:selectableItemBackground
+          @attr name cl.finhub.sismic:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 46;
         /**
@@ -7813,7 +7813,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:selectableItemBackgroundBorderless
+          @attr name cl.finhub.sismic:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 47;
         /**
@@ -7825,7 +7825,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:spinnerDropDownItemStyle
+          @attr name cl.finhub.sismic:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 41;
         /**
@@ -7837,7 +7837,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:spinnerStyle
+          @attr name cl.finhub.sismic:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 40;
         /**
@@ -7849,7 +7849,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:switchStyle
+          @attr name cl.finhub.sismic:switchStyle
         */
         public static final int Theme_switchStyle = 57;
         /**
@@ -7861,7 +7861,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:textAppearanceLargePopupMenu
+          @attr name cl.finhub.sismic:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 36;
         /**
@@ -7873,7 +7873,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:textAppearanceListItem
+          @attr name cl.finhub.sismic:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 69;
         /**
@@ -7885,7 +7885,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:textAppearanceListItemSmall
+          @attr name cl.finhub.sismic:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 70;
         /**
@@ -7897,7 +7897,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:textAppearanceSearchResultSubtitle
+          @attr name cl.finhub.sismic:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 59;
         /**
@@ -7909,7 +7909,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:textAppearanceSearchResultTitle
+          @attr name cl.finhub.sismic:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 58;
         /**
@@ -7921,7 +7921,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:textAppearanceSmallPopupMenu
+          @attr name cl.finhub.sismic:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 37;
         /**
@@ -7935,7 +7935,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:textColorSearchUrl
+          @attr name cl.finhub.sismic:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 60;
         /**
@@ -7947,7 +7947,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:toolbarNavigationButtonStyle
+          @attr name cl.finhub.sismic:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 52;
         /**
@@ -7959,7 +7959,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:toolbarStyle
+          @attr name cl.finhub.sismic:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 51;
         /**
@@ -7978,7 +7978,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:windowActionBar
+          @attr name cl.finhub.sismic:windowActionBar
         */
         public static final int Theme_windowActionBar = 1;
         /**
@@ -7998,7 +7998,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:windowActionBarOverlay
+          @attr name cl.finhub.sismic:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 2;
         /**
@@ -8017,7 +8017,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:windowActionModeOverlay
+          @attr name cl.finhub.sismic:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 3;
         /**
@@ -8042,7 +8042,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:windowFixedHeightMajor
+          @attr name cl.finhub.sismic:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 7;
         /**
@@ -8067,7 +8067,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:windowFixedHeightMinor
+          @attr name cl.finhub.sismic:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 5;
         /**
@@ -8092,7 +8092,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:windowFixedWidthMajor
+          @attr name cl.finhub.sismic:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 4;
         /**
@@ -8117,7 +8117,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:windowFixedWidthMinor
+          @attr name cl.finhub.sismic:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 6;
         /** Attributes that can be used with a Toolbar.
@@ -8128,37 +8128,37 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td> Allows us to read in the minHeight attr pre-v16 </td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.mustafaali.sensorssandbox:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.mustafaali.sensorssandbox:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.mustafaali.sensorssandbox:contentInsetEnd}</code></td><td>
+           <tr><td><code>{@link #Toolbar_buttonGravity cl.finhub.sismic:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon cl.finhub.sismic:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd cl.finhub.sismic:contentInsetEnd}</code></td><td>
              Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.mustafaali.sensorssandbox:contentInsetLeft}</code></td><td>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft cl.finhub.sismic:contentInsetLeft}</code></td><td>
              Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.mustafaali.sensorssandbox:contentInsetRight}</code></td><td>
+           <tr><td><code>{@link #Toolbar_contentInsetRight cl.finhub.sismic:contentInsetRight}</code></td><td>
              Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.mustafaali.sensorssandbox:contentInsetStart}</code></td><td>
+           <tr><td><code>{@link #Toolbar_contentInsetStart cl.finhub.sismic:contentInsetStart}</code></td><td>
              Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.mustafaali.sensorssandbox:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.mustafaali.sensorssandbox:navigationContentDescription}</code></td><td>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight cl.finhub.sismic:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription cl.finhub.sismic:navigationContentDescription}</code></td><td>
              Text to set as the content description for the navigation button
              located at the start of the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.mustafaali.sensorssandbox:navigationIcon}</code></td><td>
+           <tr><td><code>{@link #Toolbar_navigationIcon cl.finhub.sismic:navigationIcon}</code></td><td>
              Icon drawable to use for the navigation button located at
              the start of the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.mustafaali.sensorssandbox:popupTheme}</code></td><td>
+           <tr><td><code>{@link #Toolbar_popupTheme cl.finhub.sismic:popupTheme}</code></td><td>
              Reference to a theme that should be used to inflate popups
              shown by widgets in the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.mustafaali.sensorssandbox:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.mustafaali.sensorssandbox:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme com.mustafaali.sensorssandbox:theme}</code></td><td>
+           <tr><td><code>{@link #Toolbar_subtitle cl.finhub.sismic:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance cl.finhub.sismic:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_theme cl.finhub.sismic:theme}</code></td><td>
              Specifies a theme override for a view.</td></tr>
-           <tr><td><code>{@link #Toolbar_title com.mustafaali.sensorssandbox:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.mustafaali.sensorssandbox:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.mustafaali.sensorssandbox:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.mustafaali.sensorssandbox:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.mustafaali.sensorssandbox:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.mustafaali.sensorssandbox:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.mustafaali.sensorssandbox:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title cl.finhub.sismic:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom cl.finhub.sismic:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd cl.finhub.sismic:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart cl.finhub.sismic:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop cl.finhub.sismic:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins cl.finhub.sismic:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance cl.finhub.sismic:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8207,7 +8207,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8220,17 +8220,17 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td> Push object to the top of its container, not changing its size. </td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td> Push object to the bottom of its container, not changing its size. </td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:buttonGravity
+          @attr name cl.finhub.sismic:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 18;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:collapseIcon
+          @attr name cl.finhub.sismic:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 19;
         /**
@@ -8251,7 +8251,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:contentInsetEnd
+          @attr name cl.finhub.sismic:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
@@ -8272,7 +8272,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:contentInsetLeft
+          @attr name cl.finhub.sismic:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
@@ -8293,7 +8293,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:contentInsetRight
+          @attr name cl.finhub.sismic:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
@@ -8314,11 +8314,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:contentInsetStart
+          @attr name cl.finhub.sismic:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8330,7 +8330,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:maxButtonHeight
+          @attr name cl.finhub.sismic:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
@@ -8349,7 +8349,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:navigationContentDescription
+          @attr name cl.finhub.sismic:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
@@ -8364,7 +8364,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:navigationIcon
+          @attr name cl.finhub.sismic:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
@@ -8379,7 +8379,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:popupTheme
+          @attr name cl.finhub.sismic:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
@@ -8395,17 +8395,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:subtitle
+          @attr name cl.finhub.sismic:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:subtitleTextAppearance
+          @attr name cl.finhub.sismic:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
@@ -8422,11 +8422,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:theme
+          @attr name cl.finhub.sismic:theme
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#title}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8436,11 +8436,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:title
+          @attr name cl.finhub.sismic:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8452,11 +8452,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:titleMarginBottom
+          @attr name cl.finhub.sismic:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8468,11 +8468,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:titleMarginEnd
+          @attr name cl.finhub.sismic:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8484,11 +8484,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:titleMarginStart
+          @attr name cl.finhub.sismic:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8500,11 +8500,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:titleMarginTop
+          @attr name cl.finhub.sismic:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8516,17 +8516,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:titleMargins
+          @attr name cl.finhub.sismic:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mustafaali.sensorssandbox:titleTextAppearance
+          @attr name cl.finhub.sismic:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -8537,8 +8537,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td>
              Boolean that controls whether a view can take focus.</td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.mustafaali.sensorssandbox:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-           <tr><td><code>{@link #View_paddingStart com.mustafaali.sensorssandbox:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingEnd cl.finhub.sismic:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingStart cl.finhub.sismic:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -8578,7 +8578,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:paddingEnd
+          @attr name cl.finhub.sismic:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
@@ -8596,7 +8596,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.mustafaali.sensorssandbox:paddingStart
+          @attr name cl.finhub.sismic:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a ViewStubCompat.
@@ -8652,8 +8652,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #pie_PieChart_pieBorderColor com.mustafaali.sensorssandbox:pieBorderColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #pie_PieChart_pieBorderThickness com.mustafaali.sensorssandbox:pieBorderThickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #pie_PieChart_pieBorderColor cl.finhub.sismic:pieBorderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #pie_PieChart_pieBorderThickness cl.finhub.sismic:pieBorderThickness}</code></td><td></td></tr>
            </table>
            @see #pie_PieChart_pieBorderColor
            @see #pie_PieChart_pieBorderThickness
@@ -8662,7 +8662,7 @@ containing a value of this type.
             0x7f010029, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#pieBorderColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#pieBorderColor}
           attribute's value can be found in the {@link #pie_PieChart} array.
 
 
@@ -8673,11 +8673,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:pieBorderColor
+          @attr name cl.finhub.sismic:pieBorderColor
         */
         public static final int pie_PieChart_pieBorderColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#pieBorderThickness}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#pieBorderThickness}
           attribute's value can be found in the {@link #pie_PieChart} array.
 
 
@@ -8689,7 +8689,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:pieBorderThickness
+          @attr name cl.finhub.sismic:pieBorderThickness
         */
         public static final int pie_PieChart_pieBorderThickness = 1;
         /** Attributes that can be used with a xy_XYPlot.
@@ -8698,103 +8698,103 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabel com.mustafaali.sensorssandbox:domainLabel}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelAnchorPosition com.mustafaali.sensorssandbox:domainLabelAnchorPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelHeight com.mustafaali.sensorssandbox:domainLabelHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelHeightSizeLayoutType com.mustafaali.sensorssandbox:domainLabelHeightSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelLayoutStyleX com.mustafaali.sensorssandbox:domainLabelLayoutStyleX}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelLayoutStyleY com.mustafaali.sensorssandbox:domainLabelLayoutStyleY}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelPositionX com.mustafaali.sensorssandbox:domainLabelPositionX}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelPositionY com.mustafaali.sensorssandbox:domainLabelPositionY}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelTextColor com.mustafaali.sensorssandbox:domainLabelTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelTextSize com.mustafaali.sensorssandbox:domainLabelTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelVisible com.mustafaali.sensorssandbox:domainLabelVisible}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelWidth com.mustafaali.sensorssandbox:domainLabelWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainLabelWidthSizeLayoutType com.mustafaali.sensorssandbox:domainLabelWidthSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainOriginLineColor com.mustafaali.sensorssandbox:domainOriginLineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainOriginLineThickness com.mustafaali.sensorssandbox:domainOriginLineThickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainOriginTickLabelTextColor com.mustafaali.sensorssandbox:domainOriginTickLabelTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainOriginTickLabelTextSize com.mustafaali.sensorssandbox:domainOriginTickLabelTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainStep com.mustafaali.sensorssandbox:domainStep}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainStepMode com.mustafaali.sensorssandbox:domainStepMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainTickExtension com.mustafaali.sensorssandbox:domainTickExtension}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainTickLabelTextColor com.mustafaali.sensorssandbox:domainTickLabelTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainTickLabelTextSize com.mustafaali.sensorssandbox:domainTickLabelTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_domainTickLabelWidth com.mustafaali.sensorssandbox:domainTickLabelWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphAnchorPosition com.mustafaali.sensorssandbox:graphAnchorPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphBackgroundColor com.mustafaali.sensorssandbox:graphBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphDomainLineColor com.mustafaali.sensorssandbox:graphDomainLineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphDomainLineThickness com.mustafaali.sensorssandbox:graphDomainLineThickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphHeight com.mustafaali.sensorssandbox:graphHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphHeightSizeLayoutType com.mustafaali.sensorssandbox:graphHeightSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphLayoutStyleX com.mustafaali.sensorssandbox:graphLayoutStyleX}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphLayoutStyleY com.mustafaali.sensorssandbox:graphLayoutStyleY}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphMarginBottom com.mustafaali.sensorssandbox:graphMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphMarginLeft com.mustafaali.sensorssandbox:graphMarginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphMarginRight com.mustafaali.sensorssandbox:graphMarginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphMarginTop com.mustafaali.sensorssandbox:graphMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphPaddingBottom com.mustafaali.sensorssandbox:graphPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphPaddingLeft com.mustafaali.sensorssandbox:graphPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphPaddingRight com.mustafaali.sensorssandbox:graphPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphPaddingTop com.mustafaali.sensorssandbox:graphPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphPositionX com.mustafaali.sensorssandbox:graphPositionX}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphPositionY com.mustafaali.sensorssandbox:graphPositionY}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphRangeLineColor com.mustafaali.sensorssandbox:graphRangeLineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphRangeLineThickness com.mustafaali.sensorssandbox:graphRangeLineThickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphVisible com.mustafaali.sensorssandbox:graphVisible}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphWidth com.mustafaali.sensorssandbox:graphWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_graphWidthSizeLayoutType com.mustafaali.sensorssandbox:graphWidthSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridBackgroundColor com.mustafaali.sensorssandbox:gridBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridMarginBottom com.mustafaali.sensorssandbox:gridMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridMarginLeft com.mustafaali.sensorssandbox:gridMarginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridMarginRight com.mustafaali.sensorssandbox:gridMarginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridMarginTop com.mustafaali.sensorssandbox:gridMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridPaddingBottom com.mustafaali.sensorssandbox:gridPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridPaddingLeft com.mustafaali.sensorssandbox:gridPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridPaddingRight com.mustafaali.sensorssandbox:gridPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_gridPaddingTop com.mustafaali.sensorssandbox:gridPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendAnchorPosition com.mustafaali.sensorssandbox:legendAnchorPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendHeight com.mustafaali.sensorssandbox:legendHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendHeightSizeLayoutType com.mustafaali.sensorssandbox:legendHeightSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendIconHeight com.mustafaali.sensorssandbox:legendIconHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendIconHeightSizeLayoutType com.mustafaali.sensorssandbox:legendIconHeightSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendIconWidth com.mustafaali.sensorssandbox:legendIconWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendIconWidthSizeLayoutType com.mustafaali.sensorssandbox:legendIconWidthSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendLayoutStyleX com.mustafaali.sensorssandbox:legendLayoutStyleX}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendLayoutStyleY com.mustafaali.sensorssandbox:legendLayoutStyleY}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendPositionX com.mustafaali.sensorssandbox:legendPositionX}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendPositionY com.mustafaali.sensorssandbox:legendPositionY}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendTextColor com.mustafaali.sensorssandbox:legendTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendTextSize com.mustafaali.sensorssandbox:legendTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendVisible com.mustafaali.sensorssandbox:legendVisible}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendWidth com.mustafaali.sensorssandbox:legendWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_legendWidthSizeLayoutType com.mustafaali.sensorssandbox:legendWidthSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_previewMode com.mustafaali.sensorssandbox:previewMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabel com.mustafaali.sensorssandbox:rangeLabel}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelAnchorPosition com.mustafaali.sensorssandbox:rangeLabelAnchorPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelHeight com.mustafaali.sensorssandbox:rangeLabelHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelHeightSizeLayoutType com.mustafaali.sensorssandbox:rangeLabelHeightSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelLayoutStyleX com.mustafaali.sensorssandbox:rangeLabelLayoutStyleX}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelLayoutStyleY com.mustafaali.sensorssandbox:rangeLabelLayoutStyleY}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelPositionX com.mustafaali.sensorssandbox:rangeLabelPositionX}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelPositionY com.mustafaali.sensorssandbox:rangeLabelPositionY}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelTextColor com.mustafaali.sensorssandbox:rangeLabelTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelTextSize com.mustafaali.sensorssandbox:rangeLabelTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelVisible com.mustafaali.sensorssandbox:rangeLabelVisible}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelWidth com.mustafaali.sensorssandbox:rangeLabelWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeLabelWidthSizeLayoutType com.mustafaali.sensorssandbox:rangeLabelWidthSizeLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeOriginLineColor com.mustafaali.sensorssandbox:rangeOriginLineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeOriginLineThickness com.mustafaali.sensorssandbox:rangeOriginLineThickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeOriginTickLabelTextColor com.mustafaali.sensorssandbox:rangeOriginTickLabelTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeOriginTickLabelTextSize com.mustafaali.sensorssandbox:rangeOriginTickLabelTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeStep com.mustafaali.sensorssandbox:rangeStep}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeStepMode com.mustafaali.sensorssandbox:rangeStepMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeTickExtension com.mustafaali.sensorssandbox:rangeTickExtension}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeTickLabelTextColor com.mustafaali.sensorssandbox:rangeTickLabelTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeTickLabelTextSize com.mustafaali.sensorssandbox:rangeTickLabelTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_rangeTickLabelWidth com.mustafaali.sensorssandbox:rangeTickLabelWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_showDomainLabels com.mustafaali.sensorssandbox:showDomainLabels}</code></td><td></td></tr>
-           <tr><td><code>{@link #xy_XYPlot_showRangeLabels com.mustafaali.sensorssandbox:showRangeLabels}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabel cl.finhub.sismic:domainLabel}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelAnchorPosition cl.finhub.sismic:domainLabelAnchorPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelHeight cl.finhub.sismic:domainLabelHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelHeightSizeLayoutType cl.finhub.sismic:domainLabelHeightSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelLayoutStyleX cl.finhub.sismic:domainLabelLayoutStyleX}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelLayoutStyleY cl.finhub.sismic:domainLabelLayoutStyleY}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelPositionX cl.finhub.sismic:domainLabelPositionX}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelPositionY cl.finhub.sismic:domainLabelPositionY}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelTextColor cl.finhub.sismic:domainLabelTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelTextSize cl.finhub.sismic:domainLabelTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelVisible cl.finhub.sismic:domainLabelVisible}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelWidth cl.finhub.sismic:domainLabelWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainLabelWidthSizeLayoutType cl.finhub.sismic:domainLabelWidthSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainOriginLineColor cl.finhub.sismic:domainOriginLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainOriginLineThickness cl.finhub.sismic:domainOriginLineThickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainOriginTickLabelTextColor cl.finhub.sismic:domainOriginTickLabelTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainOriginTickLabelTextSize cl.finhub.sismic:domainOriginTickLabelTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainStep cl.finhub.sismic:domainStep}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainStepMode cl.finhub.sismic:domainStepMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainTickExtension cl.finhub.sismic:domainTickExtension}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainTickLabelTextColor cl.finhub.sismic:domainTickLabelTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainTickLabelTextSize cl.finhub.sismic:domainTickLabelTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_domainTickLabelWidth cl.finhub.sismic:domainTickLabelWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphAnchorPosition cl.finhub.sismic:graphAnchorPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphBackgroundColor cl.finhub.sismic:graphBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphDomainLineColor cl.finhub.sismic:graphDomainLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphDomainLineThickness cl.finhub.sismic:graphDomainLineThickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphHeight cl.finhub.sismic:graphHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphHeightSizeLayoutType cl.finhub.sismic:graphHeightSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphLayoutStyleX cl.finhub.sismic:graphLayoutStyleX}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphLayoutStyleY cl.finhub.sismic:graphLayoutStyleY}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphMarginBottom cl.finhub.sismic:graphMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphMarginLeft cl.finhub.sismic:graphMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphMarginRight cl.finhub.sismic:graphMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphMarginTop cl.finhub.sismic:graphMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphPaddingBottom cl.finhub.sismic:graphPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphPaddingLeft cl.finhub.sismic:graphPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphPaddingRight cl.finhub.sismic:graphPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphPaddingTop cl.finhub.sismic:graphPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphPositionX cl.finhub.sismic:graphPositionX}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphPositionY cl.finhub.sismic:graphPositionY}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphRangeLineColor cl.finhub.sismic:graphRangeLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphRangeLineThickness cl.finhub.sismic:graphRangeLineThickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphVisible cl.finhub.sismic:graphVisible}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphWidth cl.finhub.sismic:graphWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_graphWidthSizeLayoutType cl.finhub.sismic:graphWidthSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridBackgroundColor cl.finhub.sismic:gridBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridMarginBottom cl.finhub.sismic:gridMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridMarginLeft cl.finhub.sismic:gridMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridMarginRight cl.finhub.sismic:gridMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridMarginTop cl.finhub.sismic:gridMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridPaddingBottom cl.finhub.sismic:gridPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridPaddingLeft cl.finhub.sismic:gridPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridPaddingRight cl.finhub.sismic:gridPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_gridPaddingTop cl.finhub.sismic:gridPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendAnchorPosition cl.finhub.sismic:legendAnchorPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendHeight cl.finhub.sismic:legendHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendHeightSizeLayoutType cl.finhub.sismic:legendHeightSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendIconHeight cl.finhub.sismic:legendIconHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendIconHeightSizeLayoutType cl.finhub.sismic:legendIconHeightSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendIconWidth cl.finhub.sismic:legendIconWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendIconWidthSizeLayoutType cl.finhub.sismic:legendIconWidthSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendLayoutStyleX cl.finhub.sismic:legendLayoutStyleX}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendLayoutStyleY cl.finhub.sismic:legendLayoutStyleY}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendPositionX cl.finhub.sismic:legendPositionX}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendPositionY cl.finhub.sismic:legendPositionY}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendTextColor cl.finhub.sismic:legendTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendTextSize cl.finhub.sismic:legendTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendVisible cl.finhub.sismic:legendVisible}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendWidth cl.finhub.sismic:legendWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_legendWidthSizeLayoutType cl.finhub.sismic:legendWidthSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_previewMode cl.finhub.sismic:previewMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabel cl.finhub.sismic:rangeLabel}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelAnchorPosition cl.finhub.sismic:rangeLabelAnchorPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelHeight cl.finhub.sismic:rangeLabelHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelHeightSizeLayoutType cl.finhub.sismic:rangeLabelHeightSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelLayoutStyleX cl.finhub.sismic:rangeLabelLayoutStyleX}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelLayoutStyleY cl.finhub.sismic:rangeLabelLayoutStyleY}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelPositionX cl.finhub.sismic:rangeLabelPositionX}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelPositionY cl.finhub.sismic:rangeLabelPositionY}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelTextColor cl.finhub.sismic:rangeLabelTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelTextSize cl.finhub.sismic:rangeLabelTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelVisible cl.finhub.sismic:rangeLabelVisible}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelWidth cl.finhub.sismic:rangeLabelWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeLabelWidthSizeLayoutType cl.finhub.sismic:rangeLabelWidthSizeLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeOriginLineColor cl.finhub.sismic:rangeOriginLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeOriginLineThickness cl.finhub.sismic:rangeOriginLineThickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeOriginTickLabelTextColor cl.finhub.sismic:rangeOriginTickLabelTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeOriginTickLabelTextSize cl.finhub.sismic:rangeOriginTickLabelTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeStep cl.finhub.sismic:rangeStep}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeStepMode cl.finhub.sismic:rangeStepMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeTickExtension cl.finhub.sismic:rangeTickExtension}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeTickLabelTextColor cl.finhub.sismic:rangeTickLabelTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeTickLabelTextSize cl.finhub.sismic:rangeTickLabelTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_rangeTickLabelWidth cl.finhub.sismic:rangeTickLabelWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_showDomainLabels cl.finhub.sismic:showDomainLabels}</code></td><td></td></tr>
+           <tr><td><code>{@link #xy_XYPlot_showRangeLabels cl.finhub.sismic:showRangeLabels}</code></td><td></td></tr>
            </table>
            @see #xy_XYPlot_domainLabel
            @see #xy_XYPlot_domainLabelAnchorPosition
@@ -8922,7 +8922,7 @@ containing a value of this type.
             0x7f010072
         };
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabel}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabel}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -8932,11 +8932,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainLabel
+          @attr name cl.finhub.sismic:domainLabel
         */
         public static final int xy_XYPlot_domainLabel = 27;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelAnchorPosition}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelAnchorPosition}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -8956,11 +8956,11 @@ containing a value of this type.
 <tr><td><code>bottom_middle</code></td><td>7</td><td></td></tr>
 <tr><td><code>center</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:domainLabelAnchorPosition
+          @attr name cl.finhub.sismic:domainLabelAnchorPosition
         */
         public static final int xy_XYPlot_domainLabelAnchorPosition = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelHeight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelHeight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -8974,11 +8974,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainLabelHeight
+          @attr name cl.finhub.sismic:domainLabelHeight
         */
         public static final int xy_XYPlot_domainLabelHeight = 30;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelHeightSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelHeightSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -8992,11 +8992,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:domainLabelHeightSizeLayoutType
+          @attr name cl.finhub.sismic:domainLabelHeightSizeLayoutType
         */
         public static final int xy_XYPlot_domainLabelHeightSizeLayoutType = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelLayoutStyleX}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelLayoutStyleX}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9013,11 +9013,11 @@ containing a value of this type.
 <tr><td><code>relative_from_right</code></td><td>4</td><td></td></tr>
 <tr><td><code>relative_from_center</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:domainLabelLayoutStyleX
+          @attr name cl.finhub.sismic:domainLabelLayoutStyleX
         */
         public static final int xy_XYPlot_domainLabelLayoutStyleX = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelLayoutStyleY}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelLayoutStyleY}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9034,11 +9034,11 @@ containing a value of this type.
 <tr><td><code>relative_from_bottom</code></td><td>4</td><td></td></tr>
 <tr><td><code>relative_from_center</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:domainLabelLayoutStyleY
+          @attr name cl.finhub.sismic:domainLabelLayoutStyleY
         */
         public static final int xy_XYPlot_domainLabelLayoutStyleY = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelPositionX}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelPositionX}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9052,11 +9052,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainLabelPositionX
+          @attr name cl.finhub.sismic:domainLabelPositionX
         */
         public static final int xy_XYPlot_domainLabelPositionX = 32;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelPositionY}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelPositionY}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9070,11 +9070,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainLabelPositionY
+          @attr name cl.finhub.sismic:domainLabelPositionY
         */
         public static final int xy_XYPlot_domainLabelPositionY = 33;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelTextColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelTextColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9085,11 +9085,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainLabelTextColor
+          @attr name cl.finhub.sismic:domainLabelTextColor
         */
         public static final int xy_XYPlot_domainLabelTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelTextSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelTextSize}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9101,11 +9101,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainLabelTextSize
+          @attr name cl.finhub.sismic:domainLabelTextSize
         */
         public static final int xy_XYPlot_domainLabelTextSize = 29;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelVisible}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelVisible}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9115,11 +9115,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainLabelVisible
+          @attr name cl.finhub.sismic:domainLabelVisible
         */
         public static final int xy_XYPlot_domainLabelVisible = 34;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelWidth}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelWidth}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9133,11 +9133,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainLabelWidth
+          @attr name cl.finhub.sismic:domainLabelWidth
         */
         public static final int xy_XYPlot_domainLabelWidth = 31;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainLabelWidthSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainLabelWidthSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9151,11 +9151,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:domainLabelWidthSizeLayoutType
+          @attr name cl.finhub.sismic:domainLabelWidthSizeLayoutType
         */
         public static final int xy_XYPlot_domainLabelWidthSizeLayoutType = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainOriginLineColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainOriginLineColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9166,11 +9166,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainOriginLineColor
+          @attr name cl.finhub.sismic:domainOriginLineColor
         */
         public static final int xy_XYPlot_domainOriginLineColor = 81;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainOriginLineThickness}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainOriginLineThickness}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9182,11 +9182,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainOriginLineThickness
+          @attr name cl.finhub.sismic:domainOriginLineThickness
         */
         public static final int xy_XYPlot_domainOriginLineThickness = 79;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainOriginTickLabelTextColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainOriginTickLabelTextColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9197,11 +9197,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainOriginTickLabelTextColor
+          @attr name cl.finhub.sismic:domainOriginTickLabelTextColor
         */
         public static final int xy_XYPlot_domainOriginTickLabelTextColor = 78;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainOriginTickLabelTextSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainOriginTickLabelTextSize}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9213,11 +9213,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainOriginTickLabelTextSize
+          @attr name cl.finhub.sismic:domainOriginTickLabelTextSize
         */
         public static final int xy_XYPlot_domainOriginTickLabelTextSize = 76;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainStep}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainStep}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9231,11 +9231,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainStep
+          @attr name cl.finhub.sismic:domainStep
         */
         public static final int xy_XYPlot_domainStep = 25;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainStepMode}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainStepMode}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9249,11 +9249,11 @@ containing a value of this type.
 <tr><td><code>increment_by_val</code></td><td>1</td><td></td></tr>
 <tr><td><code>increment_by_pixels</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:domainStepMode
+          @attr name cl.finhub.sismic:domainStepMode
         */
         public static final int xy_XYPlot_domainStepMode = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainTickExtension}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainTickExtension}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9265,11 +9265,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainTickExtension
+          @attr name cl.finhub.sismic:domainTickExtension
         */
         public static final int xy_XYPlot_domainTickExtension = 93;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainTickLabelTextColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainTickLabelTextColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9280,11 +9280,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainTickLabelTextColor
+          @attr name cl.finhub.sismic:domainTickLabelTextColor
         */
         public static final int xy_XYPlot_domainTickLabelTextColor = 74;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainTickLabelTextSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainTickLabelTextSize}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9296,11 +9296,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainTickLabelTextSize
+          @attr name cl.finhub.sismic:domainTickLabelTextSize
         */
         public static final int xy_XYPlot_domainTickLabelTextSize = 72;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#domainTickLabelWidth}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#domainTickLabelWidth}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9312,11 +9312,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:domainTickLabelWidth
+          @attr name cl.finhub.sismic:domainTickLabelWidth
         */
         public static final int xy_XYPlot_domainTickLabelWidth = 64;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphAnchorPosition}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphAnchorPosition}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9336,11 +9336,11 @@ containing a value of this type.
 <tr><td><code>bottom_middle</code></td><td>7</td><td></td></tr>
 <tr><td><code>center</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:graphAnchorPosition
+          @attr name cl.finhub.sismic:graphAnchorPosition
         */
         public static final int xy_XYPlot_graphAnchorPosition = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphBackgroundColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphBackgroundColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9351,11 +9351,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphBackgroundColor
+          @attr name cl.finhub.sismic:graphBackgroundColor
         */
         public static final int xy_XYPlot_graphBackgroundColor = 66;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphDomainLineColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphDomainLineColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9366,11 +9366,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphDomainLineColor
+          @attr name cl.finhub.sismic:graphDomainLineColor
         */
         public static final int xy_XYPlot_graphDomainLineColor = 69;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphDomainLineThickness}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphDomainLineThickness}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9382,11 +9382,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphDomainLineThickness
+          @attr name cl.finhub.sismic:graphDomainLineThickness
         */
         public static final int xy_XYPlot_graphDomainLineThickness = 67;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphHeight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphHeight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9400,11 +9400,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphHeight
+          @attr name cl.finhub.sismic:graphHeight
         */
         public static final int xy_XYPlot_graphHeight = 43;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphHeightSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphHeightSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9418,11 +9418,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:graphHeightSizeLayoutType
+          @attr name cl.finhub.sismic:graphHeightSizeLayoutType
         */
         public static final int xy_XYPlot_graphHeightSizeLayoutType = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphLayoutStyleX}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphLayoutStyleX}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9439,11 +9439,11 @@ containing a value of this type.
 <tr><td><code>relative_from_right</code></td><td>4</td><td></td></tr>
 <tr><td><code>relative_from_center</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:graphLayoutStyleX
+          @attr name cl.finhub.sismic:graphLayoutStyleX
         */
         public static final int xy_XYPlot_graphLayoutStyleX = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphLayoutStyleY}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphLayoutStyleY}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9460,11 +9460,11 @@ containing a value of this type.
 <tr><td><code>relative_from_bottom</code></td><td>4</td><td></td></tr>
 <tr><td><code>relative_from_center</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:graphLayoutStyleY
+          @attr name cl.finhub.sismic:graphLayoutStyleY
         */
         public static final int xy_XYPlot_graphLayoutStyleY = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphMarginBottom}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphMarginBottom}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9476,11 +9476,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphMarginBottom
+          @attr name cl.finhub.sismic:graphMarginBottom
         */
         public static final int xy_XYPlot_graphMarginBottom = 49;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphMarginLeft}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphMarginLeft}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9492,11 +9492,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphMarginLeft
+          @attr name cl.finhub.sismic:graphMarginLeft
         */
         public static final int xy_XYPlot_graphMarginLeft = 50;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphMarginRight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphMarginRight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9508,11 +9508,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphMarginRight
+          @attr name cl.finhub.sismic:graphMarginRight
         */
         public static final int xy_XYPlot_graphMarginRight = 51;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphMarginTop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphMarginTop}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9524,11 +9524,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphMarginTop
+          @attr name cl.finhub.sismic:graphMarginTop
         */
         public static final int xy_XYPlot_graphMarginTop = 48;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphPaddingBottom}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphPaddingBottom}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9540,11 +9540,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphPaddingBottom
+          @attr name cl.finhub.sismic:graphPaddingBottom
         */
         public static final int xy_XYPlot_graphPaddingBottom = 53;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphPaddingLeft}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphPaddingLeft}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9556,11 +9556,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphPaddingLeft
+          @attr name cl.finhub.sismic:graphPaddingLeft
         */
         public static final int xy_XYPlot_graphPaddingLeft = 54;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphPaddingRight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphPaddingRight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9572,11 +9572,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphPaddingRight
+          @attr name cl.finhub.sismic:graphPaddingRight
         */
         public static final int xy_XYPlot_graphPaddingRight = 55;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphPaddingTop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphPaddingTop}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9588,11 +9588,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphPaddingTop
+          @attr name cl.finhub.sismic:graphPaddingTop
         */
         public static final int xy_XYPlot_graphPaddingTop = 52;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphPositionX}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphPositionX}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9606,11 +9606,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphPositionX
+          @attr name cl.finhub.sismic:graphPositionX
         */
         public static final int xy_XYPlot_graphPositionX = 45;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphPositionY}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphPositionY}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9624,11 +9624,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphPositionY
+          @attr name cl.finhub.sismic:graphPositionY
         */
         public static final int xy_XYPlot_graphPositionY = 46;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphRangeLineColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphRangeLineColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9639,11 +9639,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphRangeLineColor
+          @attr name cl.finhub.sismic:graphRangeLineColor
         */
         public static final int xy_XYPlot_graphRangeLineColor = 70;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphRangeLineThickness}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphRangeLineThickness}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9655,11 +9655,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphRangeLineThickness
+          @attr name cl.finhub.sismic:graphRangeLineThickness
         */
         public static final int xy_XYPlot_graphRangeLineThickness = 68;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphVisible}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphVisible}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9669,11 +9669,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphVisible
+          @attr name cl.finhub.sismic:graphVisible
         */
         public static final int xy_XYPlot_graphVisible = 47;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphWidth}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphWidth}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9687,11 +9687,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:graphWidth
+          @attr name cl.finhub.sismic:graphWidth
         */
         public static final int xy_XYPlot_graphWidth = 44;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#graphWidthSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#graphWidthSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9705,11 +9705,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:graphWidthSizeLayoutType
+          @attr name cl.finhub.sismic:graphWidthSizeLayoutType
         */
         public static final int xy_XYPlot_graphWidthSizeLayoutType = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridBackgroundColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridBackgroundColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9720,11 +9720,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridBackgroundColor
+          @attr name cl.finhub.sismic:gridBackgroundColor
         */
         public static final int xy_XYPlot_gridBackgroundColor = 83;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridMarginBottom}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridMarginBottom}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9736,11 +9736,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridMarginBottom
+          @attr name cl.finhub.sismic:gridMarginBottom
         */
         public static final int xy_XYPlot_gridMarginBottom = 57;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridMarginLeft}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridMarginLeft}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9752,11 +9752,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridMarginLeft
+          @attr name cl.finhub.sismic:gridMarginLeft
         */
         public static final int xy_XYPlot_gridMarginLeft = 58;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridMarginRight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridMarginRight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9768,11 +9768,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridMarginRight
+          @attr name cl.finhub.sismic:gridMarginRight
         */
         public static final int xy_XYPlot_gridMarginRight = 59;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridMarginTop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridMarginTop}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9784,11 +9784,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridMarginTop
+          @attr name cl.finhub.sismic:gridMarginTop
         */
         public static final int xy_XYPlot_gridMarginTop = 56;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridPaddingBottom}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridPaddingBottom}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9800,11 +9800,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridPaddingBottom
+          @attr name cl.finhub.sismic:gridPaddingBottom
         */
         public static final int xy_XYPlot_gridPaddingBottom = 61;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridPaddingLeft}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridPaddingLeft}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9816,11 +9816,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridPaddingLeft
+          @attr name cl.finhub.sismic:gridPaddingLeft
         */
         public static final int xy_XYPlot_gridPaddingLeft = 62;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridPaddingRight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridPaddingRight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9832,11 +9832,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridPaddingRight
+          @attr name cl.finhub.sismic:gridPaddingRight
         */
         public static final int xy_XYPlot_gridPaddingRight = 63;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#gridPaddingTop}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#gridPaddingTop}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9848,11 +9848,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:gridPaddingTop
+          @attr name cl.finhub.sismic:gridPaddingTop
         */
         public static final int xy_XYPlot_gridPaddingTop = 60;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendAnchorPosition}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendAnchorPosition}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9872,11 +9872,11 @@ containing a value of this type.
 <tr><td><code>bottom_middle</code></td><td>7</td><td></td></tr>
 <tr><td><code>center</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:legendAnchorPosition
+          @attr name cl.finhub.sismic:legendAnchorPosition
         */
         public static final int xy_XYPlot_legendAnchorPosition = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendHeight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendHeight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9890,11 +9890,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendHeight
+          @attr name cl.finhub.sismic:legendHeight
         */
         public static final int xy_XYPlot_legendHeight = 84;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendHeightSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendHeightSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9908,11 +9908,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:legendHeightSizeLayoutType
+          @attr name cl.finhub.sismic:legendHeightSizeLayoutType
         */
         public static final int xy_XYPlot_legendHeightSizeLayoutType = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendIconHeight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendIconHeight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9926,11 +9926,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendIconHeight
+          @attr name cl.finhub.sismic:legendIconHeight
         */
         public static final int xy_XYPlot_legendIconHeight = 90;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendIconHeightSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendIconHeightSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9944,11 +9944,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:legendIconHeightSizeLayoutType
+          @attr name cl.finhub.sismic:legendIconHeightSizeLayoutType
         */
         public static final int xy_XYPlot_legendIconHeightSizeLayoutType = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendIconWidth}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendIconWidth}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9962,11 +9962,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendIconWidth
+          @attr name cl.finhub.sismic:legendIconWidth
         */
         public static final int xy_XYPlot_legendIconWidth = 91;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendIconWidthSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendIconWidthSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -9980,11 +9980,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:legendIconWidthSizeLayoutType
+          @attr name cl.finhub.sismic:legendIconWidthSizeLayoutType
         */
         public static final int xy_XYPlot_legendIconWidthSizeLayoutType = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendLayoutStyleX}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendLayoutStyleX}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10001,11 +10001,11 @@ containing a value of this type.
 <tr><td><code>relative_from_right</code></td><td>4</td><td></td></tr>
 <tr><td><code>relative_from_center</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:legendLayoutStyleX
+          @attr name cl.finhub.sismic:legendLayoutStyleX
         */
         public static final int xy_XYPlot_legendLayoutStyleX = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendLayoutStyleY}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendLayoutStyleY}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10022,11 +10022,11 @@ containing a value of this type.
 <tr><td><code>relative_from_bottom</code></td><td>4</td><td></td></tr>
 <tr><td><code>relative_from_center</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:legendLayoutStyleY
+          @attr name cl.finhub.sismic:legendLayoutStyleY
         */
         public static final int xy_XYPlot_legendLayoutStyleY = 16;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendPositionX}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendPositionX}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10040,11 +10040,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendPositionX
+          @attr name cl.finhub.sismic:legendPositionX
         */
         public static final int xy_XYPlot_legendPositionX = 86;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendPositionY}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendPositionY}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10058,11 +10058,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendPositionY
+          @attr name cl.finhub.sismic:legendPositionY
         */
         public static final int xy_XYPlot_legendPositionY = 87;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendTextColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendTextColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10073,11 +10073,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendTextColor
+          @attr name cl.finhub.sismic:legendTextColor
         */
         public static final int xy_XYPlot_legendTextColor = 89;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendTextSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendTextSize}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10089,11 +10089,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendTextSize
+          @attr name cl.finhub.sismic:legendTextSize
         */
         public static final int xy_XYPlot_legendTextSize = 88;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendVisible}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendVisible}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10103,11 +10103,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendVisible
+          @attr name cl.finhub.sismic:legendVisible
         */
         public static final int xy_XYPlot_legendVisible = 92;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendWidth}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendWidth}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10121,11 +10121,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:legendWidth
+          @attr name cl.finhub.sismic:legendWidth
         */
         public static final int xy_XYPlot_legendWidth = 85;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#legendWidthSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#legendWidthSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10139,11 +10139,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:legendWidthSizeLayoutType
+          @attr name cl.finhub.sismic:legendWidthSizeLayoutType
         */
         public static final int xy_XYPlot_legendWidthSizeLayoutType = 17;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#previewMode}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#previewMode}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10157,11 +10157,11 @@ containing a value of this type.
 <tr><td><code>candlestick</code></td><td>1</td><td></td></tr>
 <tr><td><code>bar</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:previewMode
+          @attr name cl.finhub.sismic:previewMode
         */
         public static final int xy_XYPlot_previewMode = 18;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabel}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabel}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10171,11 +10171,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeLabel
+          @attr name cl.finhub.sismic:rangeLabel
         */
         public static final int xy_XYPlot_rangeLabel = 35;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelAnchorPosition}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelAnchorPosition}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10195,11 +10195,11 @@ containing a value of this type.
 <tr><td><code>bottom_middle</code></td><td>7</td><td></td></tr>
 <tr><td><code>center</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:rangeLabelAnchorPosition
+          @attr name cl.finhub.sismic:rangeLabelAnchorPosition
         */
         public static final int xy_XYPlot_rangeLabelAnchorPosition = 19;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelHeight}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelHeight}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10213,11 +10213,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeLabelHeight
+          @attr name cl.finhub.sismic:rangeLabelHeight
         */
         public static final int xy_XYPlot_rangeLabelHeight = 38;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelHeightSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelHeightSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10231,11 +10231,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:rangeLabelHeightSizeLayoutType
+          @attr name cl.finhub.sismic:rangeLabelHeightSizeLayoutType
         */
         public static final int xy_XYPlot_rangeLabelHeightSizeLayoutType = 20;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelLayoutStyleX}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelLayoutStyleX}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10252,11 +10252,11 @@ containing a value of this type.
 <tr><td><code>relative_from_right</code></td><td>4</td><td></td></tr>
 <tr><td><code>relative_from_center</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:rangeLabelLayoutStyleX
+          @attr name cl.finhub.sismic:rangeLabelLayoutStyleX
         */
         public static final int xy_XYPlot_rangeLabelLayoutStyleX = 21;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelLayoutStyleY}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelLayoutStyleY}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10273,11 +10273,11 @@ containing a value of this type.
 <tr><td><code>relative_from_bottom</code></td><td>4</td><td></td></tr>
 <tr><td><code>relative_from_center</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:rangeLabelLayoutStyleY
+          @attr name cl.finhub.sismic:rangeLabelLayoutStyleY
         */
         public static final int xy_XYPlot_rangeLabelLayoutStyleY = 22;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelPositionX}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelPositionX}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10291,11 +10291,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeLabelPositionX
+          @attr name cl.finhub.sismic:rangeLabelPositionX
         */
         public static final int xy_XYPlot_rangeLabelPositionX = 40;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelPositionY}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelPositionY}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10309,11 +10309,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeLabelPositionY
+          @attr name cl.finhub.sismic:rangeLabelPositionY
         */
         public static final int xy_XYPlot_rangeLabelPositionY = 41;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelTextColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelTextColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10324,11 +10324,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeLabelTextColor
+          @attr name cl.finhub.sismic:rangeLabelTextColor
         */
         public static final int xy_XYPlot_rangeLabelTextColor = 36;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelTextSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelTextSize}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10340,11 +10340,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeLabelTextSize
+          @attr name cl.finhub.sismic:rangeLabelTextSize
         */
         public static final int xy_XYPlot_rangeLabelTextSize = 37;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelVisible}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelVisible}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10354,11 +10354,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeLabelVisible
+          @attr name cl.finhub.sismic:rangeLabelVisible
         */
         public static final int xy_XYPlot_rangeLabelVisible = 42;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelWidth}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelWidth}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10372,11 +10372,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeLabelWidth
+          @attr name cl.finhub.sismic:rangeLabelWidth
         */
         public static final int xy_XYPlot_rangeLabelWidth = 39;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeLabelWidthSizeLayoutType}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeLabelWidthSizeLayoutType}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10390,11 +10390,11 @@ containing a value of this type.
 <tr><td><code>relative</code></td><td>1</td><td></td></tr>
 <tr><td><code>fill</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:rangeLabelWidthSizeLayoutType
+          @attr name cl.finhub.sismic:rangeLabelWidthSizeLayoutType
         */
         public static final int xy_XYPlot_rangeLabelWidthSizeLayoutType = 23;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeOriginLineColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeOriginLineColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10405,11 +10405,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeOriginLineColor
+          @attr name cl.finhub.sismic:rangeOriginLineColor
         */
         public static final int xy_XYPlot_rangeOriginLineColor = 82;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeOriginLineThickness}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeOriginLineThickness}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10421,11 +10421,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeOriginLineThickness
+          @attr name cl.finhub.sismic:rangeOriginLineThickness
         */
         public static final int xy_XYPlot_rangeOriginLineThickness = 80;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeOriginTickLabelTextColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeOriginTickLabelTextColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10436,11 +10436,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeOriginTickLabelTextColor
+          @attr name cl.finhub.sismic:rangeOriginTickLabelTextColor
         */
         public static final int xy_XYPlot_rangeOriginTickLabelTextColor = 77;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeOriginTickLabelTextSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeOriginTickLabelTextSize}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10452,11 +10452,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeOriginTickLabelTextSize
+          @attr name cl.finhub.sismic:rangeOriginTickLabelTextSize
         */
         public static final int xy_XYPlot_rangeOriginTickLabelTextSize = 75;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeStep}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeStep}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10470,11 +10470,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeStep
+          @attr name cl.finhub.sismic:rangeStep
         */
         public static final int xy_XYPlot_rangeStep = 26;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeStepMode}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeStepMode}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10488,11 +10488,11 @@ containing a value of this type.
 <tr><td><code>increment_by_val</code></td><td>1</td><td></td></tr>
 <tr><td><code>increment_by_pixels</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mustafaali.sensorssandbox:rangeStepMode
+          @attr name cl.finhub.sismic:rangeStepMode
         */
         public static final int xy_XYPlot_rangeStepMode = 24;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeTickExtension}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeTickExtension}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10504,11 +10504,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeTickExtension
+          @attr name cl.finhub.sismic:rangeTickExtension
         */
         public static final int xy_XYPlot_rangeTickExtension = 94;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeTickLabelTextColor}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeTickLabelTextColor}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10519,11 +10519,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeTickLabelTextColor
+          @attr name cl.finhub.sismic:rangeTickLabelTextColor
         */
         public static final int xy_XYPlot_rangeTickLabelTextColor = 73;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeTickLabelTextSize}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeTickLabelTextSize}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10535,11 +10535,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeTickLabelTextSize
+          @attr name cl.finhub.sismic:rangeTickLabelTextSize
         */
         public static final int xy_XYPlot_rangeTickLabelTextSize = 71;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#rangeTickLabelWidth}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#rangeTickLabelWidth}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10551,11 +10551,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:rangeTickLabelWidth
+          @attr name cl.finhub.sismic:rangeTickLabelWidth
         */
         public static final int xy_XYPlot_rangeTickLabelWidth = 65;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#showDomainLabels}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#showDomainLabels}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10565,11 +10565,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:showDomainLabels
+          @attr name cl.finhub.sismic:showDomainLabels
         */
         public static final int xy_XYPlot_showDomainLabels = 95;
         /**
-          <p>This symbol is the offset where the {@link com.mustafaali.sensorssandbox.R.attr#showRangeLabels}
+          <p>This symbol is the offset where the {@link cl.finhub.sismic.R.attr#showRangeLabels}
           attribute's value can be found in the {@link #xy_XYPlot} array.
 
 
@@ -10579,7 +10579,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mustafaali.sensorssandbox:showRangeLabels
+          @attr name cl.finhub.sismic:showRangeLabels
         */
         public static final int xy_XYPlot_showRangeLabels = 96;
     };

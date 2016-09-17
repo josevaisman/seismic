@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.0.2"
 
     defaultConfig {
-        applicationId "com.mustafaali.sensorssandbox"
+        applicationId "cl.finhub.sismic"
         minSdkVersion 11
         targetSdkVersion 21
     }

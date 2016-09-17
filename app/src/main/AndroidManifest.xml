@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright 2013 Mustafa Ali
+  Copyright 2013 mustafaali
   
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
   limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mustafaali.sensorssandbox"
+    package="cl.finhub.sismic"
     android:versionCode="8"
     android:versionName="1.8" >
 	
@@ -59,6 +59,7 @@
 
 			<meta-data android:name="appToken" android:value="1dafc277-702d-47c2-8818-99232506df7a" />
 			<meta-data android:name="type" android:value="s" />
+			
 			<!-- optional fields below -->
 			<meta-data android:name="maxOfflineMessages" android:value="5000" />
 			<meta-data android:name="receiverUrl" android:value="https://logsene-receiver.sematext.com" />
