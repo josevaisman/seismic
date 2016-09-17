@@ -90,14 +90,6 @@
                 	style="@style/data" />
 			</LinearLayout>
 			
-            <TextView
-                style="@style/labelStyle"
-                android:text="@string/title_live_data" />
-
-            <TextView
-                android:id="@+id/sensor_data_tv"
-                style="@style/data" />
-        	
 		</LinearLayout>
     </ScrollView>
 
@@ -107,9 +99,9 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_weight="0.3"
-		android:layout_marginTop="10px"
-		android:layout_marginLeft="10px"
-		android:layout_marginRight="10px"
+		android:layout_marginTop="20px"
+		android:layout_marginLeft="20px"
+		android:layout_marginRight="20px"
 		title="Historia"
 	/>
 

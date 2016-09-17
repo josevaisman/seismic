@@ -22,7 +22,7 @@
     <string name="title_activity_about">AboutActivity</string>
     <string name="action_settings">Settings</string>
     <string name="send_to">Send to</string>
-    <string name="share_text">Check out Sensors Sandbox on Google Play - https://play.google.com/store/apps/details?id=com.mustafaali.sensorssandbox</string>
+    <string name="share_text">Se parte de este grqn proyecto y baja la aplicación en Google Play - https://play.google.com/store/apps/details?id=cl.finhub.sismic</string>
     <string name="about_text">Demo application to demonstrate how to use onboard sensors in Android by\nMustafa Ali\nhttps://twitter.com/mustafa01ali</string>
     <string name="source_code_link">Source code available at\nhttps://github.com/mustafa01ali/SensorsSandbox</string>
     <string name="title_vendor">Vendor: </string>
@@ -31,11 +31,11 @@
     <string name="title_minimum_delay">Minimum Delay: </string>
     <string name="title_resolution">Resolution: </string>
     <string name="title_power_consumption">Power Consumption: </string>
-    <string name="title_live_data">Live Data: </string>
+    <string name="title_live_data">Sensor: </string>
 	<string name="title_registros">Registros: </string>
 	<string name="title_velocidad">Velocidad: </string>
-	<string name="title_ubicacion">Ubicacion: </string>
-	<string name="title_lupdate">Update: </string>
+	<string name="title_ubicacion">Ubicación: </string>
+	<string name="title_lupdate">Actualización: </string>
 	<string name="title_banda_media">Banda media: </string>
     <string name="title_type">Type: </string>
     <string name="msg_waiting_for_data">Waiting for data&#8230;</string>

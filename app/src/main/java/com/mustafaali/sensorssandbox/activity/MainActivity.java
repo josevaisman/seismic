@@ -30,8 +30,6 @@ import com.androidplot.util.PlotStatistics;
 import com.androidplot.xy.*;
 import android.graphics.Color;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
 import java.text.SimpleDateFormat;
@@ -73,22 +71,12 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     private SensorManager mSensorManager;
     private List<Sensor> mSensors;
     private Sensor mSensor;
-
-    private Spinner spinner;
-    private TextView vendorTextView;
-    private TextView versionTextView;
-    private TextView typeTextView;
-    private TextView maxRangeTextView;
-    private TextView minDelayTextView;
-    private TextView resolutionTextView;
-    private TextView powerTextView;
-    private TextView dataTextView;
+	private Spinner spinner;
     private TextView registrosTextView;
     private TextView velocidadTextView;
 	private TextView ubicacionTextView;
 	private TextView lupdateTextView;
 	private TextView bandamediaTextView;
-	private FileWriter fw;
 	private String locationupdate;
 	private Integer numero = 0;
 	private Long inicio = System.currentTimeMillis();
@@ -200,7 +188,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		aprHistoryPlot.setBorderStyle(XYPlot.BorderStyle.NONE, null, null);
 		aprHistoryPlot.setPlotMargins(0, 0, 0, 0);
 		aprHistoryPlot.setPlotPadding(0, 0, 0, 0);
-		aprHistoryPlot.setGridPadding(25, 25, 25, 25);
+		aprHistoryPlot.setGridPadding(35, 35, 35, 35);
 		
 		aprHistoryPlot.getBackgroundPaint().setColor(Color.TRANSPARENT);
 		aprHistoryPlot.getBorderPaint().setColor(Color.TRANSPARENT);
@@ -385,7 +373,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		ubicacionTextView = (TextView) findViewById(R.id.ubicacion_tv);
 		lupdateTextView = (TextView) findViewById(R.id.lupdate_tv);
 		bandamediaTextView = (TextView) findViewById(R.id.banda_media_tv);
-        dataTextView = (TextView) findViewById(R.id.sensor_data_tv);
     }
 
     private void displaySensorsList() {
@@ -445,8 +432,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
                     .getType());
 
             mSensorManager.unregisterListener(mSensorEventListener);
-            dataTextView.setText(R.string.msg_waiting_for_data);
-
+            
             mSensorManager.registerListener(mSensorEventListener, mSensor,
                     SensorManager.SENSOR_DELAY_NORMAL);
         }
@@ -461,17 +447,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		
         @Override
         public void onSensorChanged(SensorEvent event) {
-            StringBuilder sb = new StringBuilder();
 		
-			String s;
-			Float f;
-			
-            for (int i = 0; i < event.values.length; i++) {
-                f = event.values[i];
-				s = f.toString();
-				sb.append("values[" + i + "] : " + s + "\n");
-            }
-			
 			numero++;
 			registrosTextView.setText(numero.toString());
 			velocidadTextView.setText(String.valueOf((int) Math.round(velocidad)).concat(" registros/segundo"));
@@ -495,9 +471,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			{
 				updateGraph = false;
 			}
-			
-			
-            dataTextView.setText(sb);
+	
 			
 			// add the latest history sample:
 			valor_sensor = Math.sqrt(event.values[0]*event.values[0]+event.values[1]*event.values[1]+event.values[2]*event.values[2]);
@@ -599,7 +573,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 			Logsene logsene = new Logsene(getApplication());
 			logsene.event(event);
 		} catch (JSONException e) {
-			Log.e("myapp", "Unable to construct json", e);
+			Log.e("sismic", "Unable to construct json", e);
 		}
 	}
 	
