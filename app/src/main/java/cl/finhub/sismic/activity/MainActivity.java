@@ -56,6 +56,7 @@ import com.google.android.gms.location.LocationServices;
 import android.location.Location;
 import android.view.View.*;
 import java.security.*;
+import java.util.TimeZone;
 
 
 public class MainActivity extends ActionBarActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
@@ -109,6 +110,9 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private Boolean estable_inf = false;
     private static final int HISTORY_SIZE = 500;          
 	
+	TimeZone tz = TimeZone.getTimeZone("UTC");
+    SimpleDateFormat TimeFormato = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+	
 	private NotificationCompat.Builder notificacion;
 	
 	private XYPlot aprHistoryPlot = null;
@@ -123,6 +127,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 	private SimpleXYSeries media_limit_sup_HistorySeries = null;
 	
 	private JSONObject event = new JSONObject();
+	private JSONObject metadata = new JSONObject();
 	private Boolean logPosition = false;
 	
     @Override
@@ -560,14 +565,15 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 		try {
 			event = new JSONObject();
 			event.put("s", (double) Math.round(val * 100000) / 100000);
-			event.put("t", System.currentTimeMillis());
+			//event.put("t", System.currentTimeMillis());
 			if (logPosition){
 				event.put("lat", latitud);
 				event.put("log", longitud);
-				event.put("meta", 0);
 				logPosition = false;
 			}
 			Logsene logsene = new Logsene(getApplication());
+			event.put("meta", metadata);
+			event.put("@timestamp", TimeFormato.format(new Date()));
 			logsene.event(event);
 		} catch (JSONException e) {
 			Log.e("sismic", "Unable to construct json", e);
