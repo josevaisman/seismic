@@ -1,4 +1,4 @@
-package cl.finhub.sismic.activity;
+package cl.finhub.seismic.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -38,8 +38,8 @@ import org.json.JSONObject;
 import org.json.JSONException;
 import com.sematext.android.Logsene;
 
-import cl.finhub.sismic.R;
-import cl.finhub.sismic.adapter.SpinnerAdapter;
+import cl.finhub.seismic.R;
+import cl.finhub.seismic.adapter.SpinnerAdapter;
 
 import java.util.List;
 import android.widget.*;

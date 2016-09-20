@@ -15,7 +15,7 @@
  ******************************************************************************/
 
 
-package cl.finhub.sismic.adapter;
+package cl.finhub.seismic.adapter;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import cl.finhub.sismic.R;
+import cl.finhub.seismic.R;
 
 import java.util.List;
 

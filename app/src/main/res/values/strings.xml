@@ -14,7 +14,7 @@
   limitations under the License.
 -->
 <resources>
-    <string name="app_name">Sismic</string>
+    <string name="app_name">Sensor colectivo</string>
     <string name="action_about">About</string>
 	<string name="action_close">Cerrar</string>
     <string name="action_share">Compartir</string>
